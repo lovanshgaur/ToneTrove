@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToneTrove</title>
+  <link rel="stylesheet" href="../css/demo.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="comment" class="comment"></div>
+
+    <div class="info-container">
+      <nav>
+        <a href="https://github.com/lovanshgaur/" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="http://lovansh.me/" target="_blank"><i class="fas fa-code"></i></a>
+      </nav>
+
+      <div class="elements-container">
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+        <div class="element"></div>
+      </div>
+
+      <div class="info-content">
+        <div class="info-text">
+          <h1 id="paletteName">ToneTrove</h1>
+          <p id="paletteDescription"></p>
+        </div>
+        <div class="btn-container">
+          <button class="button" id="load">More</button>
+          <button class="button" id="copy">Copy CSS</button>
+        </div>
+      </div>
+
+      <div class="logo">
+        <h1 id="logo">ToneTrove</h1>
+      </div>
+
+      <div class="svg" id="svg-container">
+        <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="160,10 350,140 210,289 50,300" style="
+                fill: rgb(0, 132, 255);
+                stroke: purple;
+                stroke-width: 1;
+                fill-opacity: 1;
+              " />
+          <rect x="50" y="150" width="90" height="90" style="fill: grey; stroke-width: 3; stroke: rgb(0, 0, 0)" />
+          <circle cx="250" cy="100" r="60" stroke="black" stroke-width="3" fill="red" fill-opacity="0.5" />
+          <ellipse cx="140" cy="310" rx="90" ry="20" style="fill: OrangeRed" />
+          <ellipse cx="120" cy="280" rx="110" ry="20" style="fill: grey; fill-opacity: 0.5" />
+          <polyline points="220,200 240,180 260,200 280,180 300,200 320,180 340,200"
+            style="fill: none; stroke: rgb(133, 10, 55); stroke-width: 6" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="palette-container"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script type="module" src="../js/demo.js"></script>
+</body>
+
+</html>

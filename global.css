@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease-in-out;
+  font-family: "Funnel Display", sans-serif;
+}
+:root {
+  --background: rgb(255, 255, 255);
+  --color: black;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+  color: var(--color);
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+}
+p {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  height: max-content;
+  width: 100%;
+}
+#comment {
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  opacity: 0;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 200;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: floralwhite;
+  transition: opacity 0.5s ease;
+}
+
+
+/* ============================================ Sidebar CSS ============================================ */
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 3rem;
+  box-shadow: 1px 0px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 1.5rem;
+  z-index: 10000;
+  background-color: transparent;
+  color: var(--color);
+  backdrop-filter: blur(20px);
+}
+
+/* ============================================ Main CSS ============================================ */
+main {
+  margin-top: 4rem;
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#color-container {
+  margin-top: 10vh;
+  padding: 1rem;
+  width: 80%;
+  height: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.color-box {
+  width: 260px;
+  height: 260px;
+  flex-direction: column;
+  /* box-shadow: 1px 1px 4px black; */
+  padding: 10px;
+  border-radius: 1rem;
+}
+.color-box h3 {
+  cursor: pointer;
+}
+.stripes-container {
+  width: 100%;
+  height: 300px;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 4px black;
+}
+.stripe {
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+.stripe > div {
+  display: none;
+  opacity: 0.7;
+}
+.stripe:hover div {
+  display: block;
+}
+.detail-container {
+  width: 100%;
+  height: 50px;
+  padding: 0.5rem;
+}
+.detail-container h3 {
+  font-weight: 200;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.buttons button {
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}

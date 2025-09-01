@@ -1,0 +1,720 @@
+{
+  "colorPalettes": [
+    {
+      "paletteName": "Ocean Breeze",
+      "colors": ["#003f5c", "#2f4b7c", "#665191", "#a05195"]
+    },
+    {
+      "paletteName": "Arctic Ice",
+      "colors": ["#a8dadc", "#457b9d", "#1d3557", "#f1faee"]
+    },
+    {
+      "paletteName": "Mint Sky",
+      "colors": ["#d4f1f4", "#75e6da", "#189ab4", "#05445e"]
+    },
+    {
+      "paletteName": "Cool Twilight",
+      "colors": ["#2c3e50", "#34495e", "#5dade2", "#85c1e9"]
+    },
+    {
+      "paletteName": "Teal Dreams",
+      "colors": ["#264653", "#2a9d8f", "#e9c46a", "#f4a261"]
+    },
+    {
+      "paletteName": "Mystic Lagoon",
+      "colors": ["#6a0572", "#ab83a1", "#cbb2c6", "#d6e4e5"]
+    },
+    {
+      "paletteName": "Frozen Lake",
+      "colors": ["#8ecae6", "#219ebc", "#023047", "#ffb703"]
+    },
+    {
+      "paletteName": "Polar Frost",
+      "colors": ["#d6e6f2", "#91d1c2", "#3c91e6", "#1c77c3"]
+    },
+    {
+      "paletteName": "Forest Mist",
+      "colors": ["#35524a", "#627c85", "#9dbebb", "#c5c9ca"]
+    },
+    {
+      "paletteName": "Winter Chill",
+      "colors": ["#011627", "#2ec4b6", "#e71d36", "#ff9f1c"]
+    },
+    {
+      "paletteName": "Aqua Marine",
+      "colors": ["#5bc0be", "#3a506b", "#0b132b", "#1c2541"]
+    },
+    {
+      "paletteName": "Crystal Clear",
+      "colors": ["#89c2d9", "#61a5c2", "#468faf", "#1d3557"]
+    },
+    {
+      "paletteName": "Stormy Skies",
+      "colors": ["#1b3b6f", "#26547c", "#ef476f", "#ffd166"]
+    },
+    {
+      "paletteName": "Aurora Glow",
+      "colors": ["#142850", "#27496d", "#0c7b93", "#00a8cc"]
+    },
+    {
+      "paletteName": "Deep Dive",
+      "colors": ["#24305e", "#374785", "#a8d0db", "#f76c6c"]
+    },
+    {
+      "paletteName": "Seafoam Serenity",
+      "colors": ["#81ecec", "#74b9ff", "#0984e3", "#6c5ce7"]
+    },
+    {
+      "paletteName": "Ethereal Blue",
+      "colors": ["#d1faff", "#9dfff9", "#77e9f2", "#3db5db"]
+    },
+    {
+      "paletteName": "Neptune Depths",
+      "colors": ["#172a3a", "#0f4257", "#1891ac", "#0da2b6"]
+    },
+    {
+      "paletteName": "Azure Mist",
+      "colors": ["#a6e3e9", "#71c9ce", "#1ca3a8", "#3aafa9"]
+    },
+    {
+      "paletteName": "Moonlit Lagoon",
+      "colors": ["#006d77", "#83c5be", "#edf6f9", "#ffddd2"]
+    },
+    {
+      "paletteName": "Sunny Meadow",
+      "colors": ["#f8c291", "#e55039", "#f6b93b", "#fa983a"]
+    },
+    {
+      "paletteName": "Golden Hour",
+      "colors": ["#ffbe76", "#ff7979", "#badc58", "#f9ca24"]
+    },
+    {
+      "paletteName": "Velvet Sunset",
+      "colors": ["#c44569", "#546de5", "#ff6b81", "#feca57"]
+    },
+    {
+      "paletteName": "Pastel Bloom",
+      "colors": ["#f7d794", "#786fa6", "#f8a5c2", "#63cdda"]
+    },
+    {
+      "paletteName": "Citrus Burst",
+      "colors": ["#ff9f1c", "#ffbf69", "#fdfffc", "#2ec4b6"]
+    },
+    {
+      "paletteName": "Desert Mirage",
+      "colors": ["#f4a261", "#2a9d8f", "#264653", "#e76f51"]
+    },
+    {
+      "paletteName": "Blush Dream",
+      "colors": ["#ffe3e3", "#ffccf9", "#fcc2ff", "#c4f2d0"]
+    },
+    {
+      "paletteName": "Peach Sorbet",
+      "colors": ["#f6d6ad", "#fda085", "#f5a623", "#f76b8a"]
+    },
+    {
+      "paletteName": "Serene Forest",
+      "colors": ["#35524a", "#627c85", "#9dbebb", "#bfd7ea"]
+    },
+    {
+      "paletteName": "Amber Glow",
+      "colors": ["#ff9f1c", "#e71d36", "#011627", "#2ec4b6"]
+    },
+    {
+      "paletteName": "Cherry Blossom",
+      "colors": ["#ffc0cb", "#ffe4e1", "#ffb6c1", "#faebd7"]
+    },
+    {
+      "paletteName": "Earthy Tones",
+      "colors": ["#8d8741", "#659dbd", "#daad86", "#bc986a"]
+    },
+    {
+      "paletteName": "Twilight Vibes",
+      "colors": ["#22223b", "#4a4e69", "#9a8c98", "#c9ada7"]
+    },
+    {
+      "paletteName": "Ocean Pearl",
+      "colors": ["#48a9a6", "#c1666b", "#e5e5dc", "#faf3dd"]
+    },
+    {
+      "paletteName": "Midnight Bloom",
+      "colors": ["#3b3b58", "#4a4a62", "#8a8a9e", "#bebec5"]
+    },
+    {
+      "paletteName": "Candy Pop",
+      "colors": ["#ff6f61", "#6b4226", "#f4e8c1", "#f9a602"]
+    },
+    {
+      "paletteName": "Dusk Horizon",
+      "colors": ["#343434", "#d9bf77", "#df622c", "#987441"]
+    },
+    {
+      "paletteName": "Lush Meadow",
+      "colors": ["#007f5f", "#2b9348", "#55a630", "#80b918"]
+    },
+    {
+      "paletteName": "Berry Delight",
+      "colors": ["#ff9999", "#cc6666", "#990000", "#660000"]
+    },
+    {
+      "paletteName": "Golden Fields",
+      "colors": ["#ffdfba", "#e4a672", "#b86f50", "#8b4513"]
+    },
+    {
+      "paletteName": "Sapphire Night",
+      "colors": ["#0a1128", "#001f54", "#034078", "#0466c8"]
+    },
+    {
+      "paletteName": "Aurora Night",
+      "colors": ["#2e003e", "#3d2352", "#593c77", "#8559a5"]
+    },
+    {
+      "paletteName": "Lilac Dreams",
+      "colors": ["#efbbcf", "#d896ff", "#be29ec", "#9d00ff"]
+    },
+    {
+      "paletteName": "Sunset Glow",
+      "colors": ["#f8b195", "#f67280", "#c06c84", "#6c5b7b"]
+    },
+    {
+      "paletteName": "Rustic Charm",
+      "colors": ["#a28c6a", "#826644", "#5d432c", "#3b2e2e"]
+    },
+    {
+      "paletteName": "Sand & Sea",
+      "colors": ["#ffd166", "#06d6a0", "#118ab2", "#073b4c"]
+    },
+    {
+      "paletteName": "Jade Horizon",
+      "colors": ["#355070", "#6d597a", "#b56576", "#e56b6f"]
+    },
+    {
+      "paletteName": "Cloudy Sky",
+      "colors": ["#e0fbfc", "#c2dfe3", "#9db4c0", "#5c6784"]
+    },
+    {
+      "paletteName": "Eclipse Shadow",
+      "colors": ["#121212", "#282828", "#414141", "#616161"]
+    },
+    {
+      "paletteName": "Lemon Zest",
+      "colors": ["#fff9c4", "#fdd835", "#fbc02d", "#f57f17"]
+    },
+    {
+      "paletteName": "Fresh Lavender",
+      "colors": ["#d4a5a5", "#bb8588", "#996888", "#574f7d"]
+    },
+    {
+      "paletteName": "Tangerine Bliss",
+      "colors": ["#ffc478", "#ffa177", "#ff6f61", "#ff4e50"]
+    },
+    {
+      "paletteName": "Spring Fresh",
+      "colors": ["#e8f5e9", "#a5d6a7", "#66bb6a", "#43a047"]
+    },
+    {
+      "paletteName": "Teal Cascade",
+      "colors": ["#004d61", "#007b7c", "#00a5cf", "#50d9d4"]
+    },
+    {
+      "paletteName": "Deep Woods",
+      "colors": ["#3e5641", "#667761", "#a49e8d", "#f4ede6"]
+    },
+    {
+      "paletteName": "Nightfall Glow",
+      "colors": ["#1c1c3c", "#3d3d5c", "#5f5f8c", "#9191c2"]
+    },
+    {
+      "paletteName": "Tropical Punch",
+      "colors": ["#ff9a76", "#ff6f61", "#ff4757", "#ff6348"]
+    },
+    {
+      "paletteName": "Golden Twilight",
+      "colors": ["#ffdf6f", "#ffcc5c", "#ffb74d", "#ff8a65"]
+    },
+    {
+      "paletteName": "Metallic Frost",
+      "colors": ["#d9d9d9", "#bfbfbf", "#a6a6a6", "#8c8c8c"]
+    },
+    {
+      "paletteName": "Ocean Mist",
+      "colors": ["#b2ebf2", "#80deea", "#4dd0e1", "#26c6da"]
+    },
+    {
+      "paletteName": "Velvet Night",
+      "colors": ["#2d132c", "#4a1942", "#6a256f", "#8c368a"]
+    },
+    {
+      "paletteName": "Rose Gold",
+      "colors": ["#ffd6d6", "#ffb3b3", "#ff9999", "#ff8080"]
+    },
+    {
+      "paletteName": "Coral Reef",
+      "colors": ["#ff6f61", "#ffa07a", "#ffdab9", "#ffe4c4"]
+    },
+    {
+      "paletteName": "Autumn Leaves",
+      "colors": ["#ff4500", "#ff6347", "#ffa500", "#ffd700"]
+    },
+    {
+      "paletteName": "Berry Crush",
+      "colors": ["#8e4585", "#c71585", "#d87093", "#dda0dd"]
+    },
+    {
+      "paletteName": "Cobalt Breeze",
+      "colors": ["#0047ab", "#0056b3", "#006994", "#0073e6"]
+    },
+    {
+      "paletteName": "Citrus Splash",
+      "colors": ["#ffa500", "#ff6347", "#ffecb3", "#ffe4b5"]
+    },
+    {
+      "paletteName": "Lava Glow",
+      "colors": ["#ff4500", "#dc143c", "#ff6347", "#cd5c5c"]
+    },
+    {
+      "paletteName": "Royal Velvet",
+      "colors": ["#4b0082", "#6a0dad", "#9370db", "#8a2be2"]
+    },
+    {
+      "paletteName": "Blazing Sunset",
+      "colors": ["#ff7f50", "#ff4500", "#ff6347", "#ff8c00"]
+    },
+    {
+      "paletteName": "Emerald Forest",
+      "colors": ["#228b22", "#006400", "#556b2f", "#6b8e23"]
+    },
+    {
+      "paletteName": "Rustic Earth",
+      "colors": ["#a0522d", "#8b4513", "#d2b48c", "#deb887"]
+    },
+    {
+      "paletteName": "Dusky Horizon",
+      "colors": ["#4e4e50", "#6f6f70", "#8b8b8c", "#a9a9aa"]
+    },
+    {
+      "paletteName": "Sandy Shores",
+      "colors": ["#f4a460", "#d2b48c", "#deb887", "#f5deb3"]
+    },
+    {
+      "paletteName": "Grapevine",
+      "colors": ["#6a5acd", "#9370db", "#d8bfd8", "#dda0dd"]
+    },
+    {
+      "paletteName": "Candyfloss",
+      "colors": ["#ffb6c1", "#ffc0cb", "#ff69b4", "#ffa07a"]
+    },
+    {
+      "paletteName": "Mocha Delight",
+      "colors": ["#8b4513", "#a0522d", "#d2691e", "#cd853f"]
+    },
+    {
+      "paletteName": "Frozen Glacier",
+      "colors": ["#b0e0e6", "#4682b4", "#5f9ea0", "#87ceeb"]
+    },
+    {
+      "paletteName": "Lilac Whisper",
+      "colors": ["#e6e6fa", "#d8bfd8", "#dda0dd", "#ee82ee"]
+    },
+    {
+      "paletteName": "Spring Meadow",
+      "colors": ["#7fff00", "#32cd32", "#98fb98", "#00ff7f"]
+    },
+    {
+      "paletteName": "Copper Glow",
+      "colors": ["#b87333", "#d2691e", "#cd7f32", "#deaa88"]
+    },
+    {
+      "paletteName": "Amethyst Dream",
+      "colors": ["#9966cc", "#8a2be2", "#9370db", "#ba55d3"]
+    },
+    {
+      "paletteName": "Peacock Plume",
+      "colors": ["#008080", "#40e0d0", "#4682b4", "#5f9ea0"]
+    },
+    {
+      "paletteName": "Evening Tide",
+      "colors": ["#4682b4", "#5f9ea0", "#6495ed", "#87ceeb"]
+    },
+    {
+      "paletteName": "Orchid Bloom",
+      "colors": ["#da70d6", "#ee82ee", "#dda0dd", "#d8bfd8"]
+    },
+    {
+      "paletteName": "Frosted Petals",
+      "colors": ["#afeeee", "#87ceeb", "#4682b4", "#5f9ea0"]
+    },
+    {
+      "paletteName": "Golden Harvest",
+      "colors": ["#daa520", "#ffdf00", "#ffd700", "#ffa500"]
+    },
+    {
+      "paletteName": "Sunflower Glow",
+      "colors": ["#ffdf00", "#ffd700", "#ffff00", "#ffe135"]
+    },
+    {
+      "paletteName": "Ocean Horizon",
+      "colors": ["#5f9ea0", "#4682b4", "#6495ed", "#87ceeb"]
+    },
+    {
+      "paletteName": "Seashell Pastel",
+      "colors": ["#f5f5dc", "#fff5ee", "#ffe4e1", "#fdf5e6"]
+    },
+    {
+      "paletteName": "Berry Bliss",
+      "colors": ["#8b008b", "#ff1493", "#ff69b4", "#ffb6c1"]
+    },
+    {
+      "paletteName": "Icy Glow",
+      "colors": ["#afeeee", "#b0c4de", "#87ceeb", "#6495ed"]
+    },
+    {
+      "paletteName": "Tropical Fusion",
+      "colors": ["#ff6347", "#ff4500", "#ff7f50", "#ffa07a"]
+    },
+    {
+      "paletteName": "Midnight Star",
+      "colors": ["#191970", "#000080", "#00008b", "#0000cd"]
+    },
+    {
+      "paletteName": "Cherry Wine",
+      "colors": ["#8b0000", "#b22222", "#dc143c", "#ff4500"]
+    },
+    {
+      "paletteName": "Lemon Frost",
+      "colors": ["#fdfd96", "#fff44f", "#ffff66", "#ffeb3b"]
+    },
+    {
+      "paletteName": "Pine Forest",
+      "colors": ["#006400", "#228b22", "#2e8b57", "#32cd32"]
+    },
+    {
+      "paletteName": "Vintage Rose",
+      "colors": ["#c08081", "#dda0dd", "#e6e6fa", "#faf0e6"]
+    },
+    {
+      "paletteName": "Crystal Lagoon",
+      "colors": ["#afeeee", "#40e0d0", "#00ced1", "#48d1cc"]
+    },
+    {
+      "paletteName": "Sunkissed Beach",
+      "colors": ["#ffd700", "#ffa500", "#ff6347", "#ff4500"]
+    },
+    {
+      "paletteName": "Plum Royale",
+      "colors": ["#8b008b", "#9932cc", "#ba55d3", "#9370db"]
+    },
+    {
+      "paletteName": "Charcoal Mist",
+      "colors": ["#333333", "#444444", "#555555", "#666666"]
+    },
+    {
+      "paletteName": "Golden Ember",
+      "colors": ["#ffbf00", "#ff9e00", "#ff7700", "#ff6100"]
+    },
+    {
+      "paletteName": "Midnight Aurora",
+      "colors": ["#240046", "#5a189a", "#9d4edd", "#c77dff"]
+    },
+    {
+      "paletteName": "Celestial Hues",
+      "colors": ["#1e293b", "#64748b", "#94a3b8", "#e2e8f0"]
+    },
+    {
+      "paletteName": "Sand Dunes",
+      "colors": ["#e2c044", "#c8963e", "#a15e49", "#4e3620"]
+    },
+    {
+      "paletteName": "Velvet Night",
+      "colors": ["#2c003e", "#5c007a", "#9a00d1", "#e200f7"]
+    },
+    {
+      "paletteName": "Sapphire Dream",
+      "colors": ["#003f88", "#00509d", "#0a9396", "#94d2bd"]
+    },
+    {
+      "paletteName": "Crimson Horizon",
+      "colors": ["#9a031e", "#d00000", "#e85d04", "#ffba08"]
+    },
+    {
+      "paletteName": "Olive Grove",
+      "colors": ["#3b5249", "#519872", "#b6cbb5", "#e8e9a1"]
+    },
+    {
+      "paletteName": "Twilight Ember",
+      "colors": ["#6a0572", "#9a0572", "#cc2b5e", "#ff6f61"]
+    },
+    {
+      "paletteName": "Desert Sun",
+      "colors": ["#ffba08", "#faa307", "#e85d04", "#d00000"]
+    },
+    {
+      "paletteName": "Muted Rose",
+      "colors": ["#d8a7b1", "#a44a3f", "#5c323e", "#2e282a"]
+    },
+    {
+      "paletteName": "Morning Frost",
+      "colors": ["#d8eefe", "#adcbe3", "#a6dcef", "#8aa7ef"]
+    },
+    {
+      "paletteName": "Amber Glow",
+      "colors": ["#ffad69", "#ff924c", "#ff784f", "#d1603d"]
+    },
+    {
+      "paletteName": "Shimmering Pearl",
+      "colors": ["#f4f1de", "#e07a5f", "#3d405b", "#81b29a"]
+    },
+    {
+      "paletteName": "Copper Cascade",
+      "colors": ["#e29578", "#e07a5f", "#c44536", "#772e25"]
+    },
+    {
+      "paletteName": "Mystic Fog",
+      "colors": ["#4d4d4d", "#7d7d7d", "#bfbfbf", "#e0e0e0"]
+    },
+    {
+      "paletteName": "Tropical Lagoon",
+      "colors": ["#05668d", "#028090", "#00a896", "#02c39a"]
+    },
+    {
+      "paletteName": "Sunset Coral",
+      "colors": ["#f94144", "#f3722c", "#f8961e", "#f9844a"]
+    },
+    {
+      "paletteName": "Forest Whispers",
+      "colors": ["#2b2d42", "#8d99ae", "#edf2f4", "#d90429"]
+    },
+    {
+      "paletteName": "Berry Twilight",
+      "colors": ["#720026", "#ce4257", "#ff7f51", "#ff9e58"]
+    },
+    {
+      "paletteName": "Ivy Charm",
+      "colors": ["#283618", "#606c38", "#9cac59", "#dda15e"]
+    },
+    {
+      "paletteName": "Citrus Spark",
+      "colors": ["#ffbe0b", "#fb5607", "#ff006e", "#8338ec"]
+    },
+    {
+      "paletteName": "Ocean Serenity",
+      "colors": ["#003049", "#d62828", "#f77f00", "#fcbf49"]
+    },
+    {
+      "paletteName": "Frosty Peaks",
+      "colors": ["#457b9d", "#1d3557", "#f1faee", "#a8dadc"]
+    },
+    {
+      "paletteName": "Blush Harmony",
+      "colors": ["#fec5bb", "#fcd5ce", "#fae1dd", "#f8edeb"]
+    },
+    {
+      "paletteName": "Golden Cascade",
+      "colors": ["#e09f3e", "#9e2a2b", "#540b0e", "#ee9b00"]
+    },
+    {
+      "paletteName": "Arctic Twilight",
+      "colors": ["#14213d", "#fca311", "#e5e5e5", "#8d99ae"]
+    },
+    {
+      "paletteName": "Dusky Blooms",
+      "colors": ["#800f2f", "#c9184a", "#ff4d6d", "#ff758f"]
+    },
+    {
+      "paletteName": "Golden Sands",
+      "colors": ["#c9cba3", "#ffe1a8", "#e26d5c", "#723d46"]
+    },
+    {
+      "paletteName": "Muted Earth",
+      "colors": ["#606c38", "#283618", "#dda15e", "#bc6c25"]
+    },
+    {
+      "paletteName": "Moonlit Aurora",
+      "colors": ["#495867", "#577399", "#bdd5ea", "#f7f7ff"]
+    },
+    {
+      "paletteName": "Desert Oasis",
+      "colors": ["#edc4b3", "#e6b8a2", "#deab90", "#d69f7e"]
+    },
+    {
+      "paletteName": "Emerald Mist",
+      "colors": ["#023047", "#219ebc", "#8ecae6", "#ffb703"]
+    },
+    {
+      "paletteName": "Stormy Coast",
+      "colors": ["#14213d", "#fca311", "#e5e5e5", "#a8dadc"]
+    },
+    {
+      "paletteName": "Crimson Tide",
+      "colors": ["#690500", "#920f10", "#d72638", "#ff5700"]
+    },
+    {
+      "paletteName": "Twilight Fern",
+      "colors": ["#264653", "#2a9d8f", "#e9c46a", "#f4a261"]
+    },
+    {
+      "paletteName": "Arctic Mist",
+      "colors": ["#8ecae6", "#219ebc", "#023047", "#e9c46a"]
+    },
+    {
+      "paletteName": "Dusky Blossom",
+      "colors": ["#420c14", "#750d37", "#c91842", "#ffa69e"]
+    },
+    {
+      "paletteName": "Opal Glow",
+      "colors": ["#2d6a4f", "#40916c", "#52b788", "#95d5b2"]
+    },
+    {
+      "paletteName": "Nightfall Hues",
+      "colors": ["#1d3557", "#457b9d", "#a8dadc", "#f1faee"]
+    },
+    {
+      "paletteName": "Lavender Dream",
+      "colors": ["#9b8bc9", "#c1a6d1", "#d8c9e0", "#f1e1fc"]
+    },
+    {
+      "paletteName": "Crimson Blaze",
+      "colors": ["#9d0208", "#d00000", "#e85d04", "#f0a500"]
+    },
+    {
+      "paletteName": "Emerald Forest",
+      "colors": ["#064635", "#1d6f42", "#4b9f68", "#80cfa9"]
+    },
+    {
+      "paletteName": "Mauve Mist",
+      "colors": ["#f0d1ff", "#d0a9d7", "#a569b4", "#6a3093"]
+    },
+    {
+      "paletteName": "Golden Hour",
+      "colors": ["#f7b801", "#f15b2a", "#db2d44", "#9b1d20"]
+    },
+    {
+      "paletteName": "Cotton Candy",
+      "colors": ["#f7b7a3", "#f7d0a2", "#c9c0d3", "#d0c4e3"]
+    },
+    {
+      "paletteName": "Violet Depths",
+      "colors": ["#6a0dad", "#9400d3", "#8b008b", "#4b0082"]
+    },
+    {
+      "paletteName": "Peach Sunset",
+      "colors": ["#ff7e5f", "#feb47b", "#f7af00", "#f06292"]
+    },
+    {
+      "paletteName": "Autumn Spice",
+      "colors": ["#e37a40", "#d45d14", "#bc4b31", "#8c3e2f"]
+    },
+    {
+      "paletteName": "Rustic Charm",
+      "colors": ["#9e2a2b", "#e4b7a0", "#f3b9a0", "#9e4f62"]
+    },
+    {
+      "paletteName": "Tangerine Dream",
+      "colors": ["#ff6f61", "#f5a623", "#f7b500", "#f76b8a"]
+    },
+    {
+      "paletteName": "Turquoise Oasis",
+      "colors": ["#17a2b8", "#1c8d7b", "#2e8b57", "#004d40"]
+    },
+    {
+      "paletteName": "Blush Pink",
+      "colors": ["#f3d2d2", "#f2a7a7", "#d59cdb", "#b98fdd"]
+    },
+    {
+      "paletteName": "Cobalt Twilight",
+      "colors": ["#3c6e71", "#f1a65d", "#f7d4b3", "#a8d08d"]
+    },
+    {
+      "paletteName": "Mocha Dream",
+      "colors": ["#6f4f28", "#ad6f40", "#d6b298", "#f1e5d6"]
+    },
+    {
+      "paletteName": "Citrus Splash",
+      "colors": ["#ffb700", "#ff4500", "#ff6347", "#ff8c00"]
+    },
+    {
+      "paletteName": "Tidal Wave",
+      "colors": ["#005f73", "#0a9396", "#94d2bd", "#e9d8a6"]
+    },
+    {
+      "paletteName": "Forest Green",
+      "colors": ["#2c6e49", "#3e8e41", "#70a288", "#a8d08d"]
+    },
+    {
+      "paletteName": "Sunset Breeze",
+      "colors": ["#fca311", "#e5e5e5", "#8d99ae", "#f1faee"]
+    },
+    {
+      "paletteName": "Pastel Glow",
+      "colors": ["#a8e6cf", "#dcedc1", "#fffcf9", "#ff8c94"]
+    },
+    {
+      "paletteName": "Forest Shade",
+      "colors": ["#3e4e5e", "#94b0a8", "#c6d8d6", "#6b7e7e"]
+    },
+    {
+      "paletteName": "Cherry Blossom",
+      "colors": ["#f7b7a3", "#f8c7c2", "#c4b0a4", "#d1b6b0"]
+    },
+    {
+      "paletteName": "Fiery Ember",
+      "colors": ["#ff5d57", "#ff7847", "#ff9f40", "#ffbf00"]
+    },
+    {
+      "paletteName": "Sapphire Horizon",
+      "colors": ["#006e8e", "#004e7c", "#003a5e", "#002a47"]
+    },
+    {
+      "paletteName": "Lime Punch",
+      "colors": ["#78b24f", "#dbbe8a", "#f2df7b", "#c26d3e"]
+    },
+    {
+      "paletteName": "Icy Blue",
+      "colors": ["#b0e0e6", "#7ec8e3", "#67c8a7", "#4b88a2"]
+    },
+    {
+      "paletteName": "Coral Sands",
+      "colors": ["#f5a31b", "#f18500", "#e97c3b", "#da5f31"]
+    },
+    {
+      "paletteName": "Lush Oasis",
+      "colors": ["#98bf64", "#a8d08d", "#f2e5d5", "#f0dfc5"]
+    },
+    {
+      "paletteName": "Amber Forest",
+      "colors": ["#ce8b3f", "#d37f3f", "#964f22", "#541e14"]
+    },
+    {
+      "paletteName": "Blue Sky",
+      "colors": ["#e4f1f5", "#a6c6d8", "#84a9b8", "#4b7b8a"]
+    },
+    {
+      "paletteName": "Moonlit Tide",
+      "colors": ["#007f5f", "#2b9e8f", "#6baed6", "#f4a261"]
+    },
+    {
+      "paletteName": "Peach Sorbet",
+      "colors": ["#ff9b85", "#ffbfa9", "#f7a8b8", "#f1b3b8"]
+    },
+    {
+      "paletteName": "Sage Glow",
+      "colors": ["#f2e8cf", "#c9d7b6", "#b6d0b3", "#90b79f"]
+    },
+    {
+      "paletteName": "Tropical Breeze",
+      "colors": ["#45a29e", "#d4f1f4", "#f1faee", "#ebc7e4"]
+    },
+    {
+      "paletteName": "Autumn Leaves",
+      "colors": ["#a33d3d", "#f8d0b5", "#f0e6b7", "#ff8a00"]
+    },
+    {
+      "paletteName": "Teal Twilight",
+      "colors": ["#006f6a", "#5e8d7c", "#7fb8b8", "#b1d4d6"]
+    },
+    {
+      "paletteName": "Cosmic Light",
+      "colors": ["#212121", "#303030", "#434343", "#616161"]
+    }
+  ]
+}
