@@ -60,7 +60,13 @@ function fillContainer(data) {
                 }
             `
             console.log('copied', theme)
-            navigator.clipboard.writeText(`${theme}`);
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(theme)
+                    .then(() => console.log("copied!"))
+                    .catch(err => console.error("clipboard failed", err));
+            } else {
+                console.warn("Clipboard API not supported here");
+            }
             let comment = document.getElementById("comment");
             comment.style.opacity = 1;
             comment.textContent = "Copied!";
