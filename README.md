@@ -1,8 +1,8 @@
 Readme adding for tonetrove_v3
 
 Plans ✔️❌
-    1. Vibes
-    2. More Colors
+    1. Vibes ✔️
+    2. More Colors ✔️
     3. Tools
     4. Demo page better
 
