@@ -5,31 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToneTrove-Home</title>
-    <link rel="stylesheet" href="global.css" class="css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/lucide@latest"></script>
 
 </head>
 
 <body>
-    <div id="comment"></div>
     <div id="container">
-        <header>
-            <div id="logo">ToneTrove</div>
-            <nav>
-                <a href="https://github.com/lovanshgaur/" target="_blank"><i class="fa-brands fa-github"></i></a>
-                     <a href="http://lovansh.me/" target="_blank"><i class="fas fa-code"></i></a>
-            </nav>
+        <div id="noise-overlay"></div>
+
+        <header id="header" class="header">
+            <div class="header-wrapper">
+                ToneTrove
+                <div class="navbar">
+
+                    <a rel="noopener" href="https://github.com/lovanshgaur/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a rel="noopener" href="http://lovansh.me/" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
         </header>
         <main>
-            <div id="color-container">
 
+            <aside>
+                <nav id="nav" class="nav"></nav>
+                <div class="vibe-container">
+                    <span class="vibe-tag">Quiet Confidence</span>
+                    <span class="vibe-tag">Soft Power</span>
+                    <span class="vibe-tag">Modern Ritual</span>
+                    <span class="vibe-tag">Digital Zen</span>
+                    <span class="vibe-tag">Warm Intelligence</span>
+                    <span class="vibe-tag">Understated Luxury</span>
+                    <span class="vibe-tag">Creative Discipline</span>
+                    <span class="vibe-tag">Human Tech</span>
+                    <span class="vibe-tag">Focused Momentum</span>
+                    <span class="vibe-tag">Quiet Rebellion</span>
+                </div>
+
+            </aside>
+
+            <div class="tone-wrapper">
+                <div class="tones-container" id="tones">
+                </div>
             </div>
+
         </main>
     </div>
-
-    <script src="js/main.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
