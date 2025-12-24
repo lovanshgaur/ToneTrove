@@ -1,197 +1,280 @@
-let palettes = [];
+// ================== CONFIG ==================
+const BATCH_SIZE = 25;
+const LOAD_THRESHOLD = 5;
 
+// ================== STATE ==================
+let allTones = [];
+let currentList = [];
+let currentIndex = 0;
+
+// ================== ELEMENTS ==================
 const container = document.getElementById('container');
-const tones = document.getElementById('tones');
+const background = document.getElementById('background');
+const tonesContainer = document.getElementById('tones');
+const vibesContainer = document.getElementById('vibes-container');
 
-fetch("assets/data.json")
-  .then(response => response.json())
-  .then(data => {
-    palettes = data.tones;
-    toner(palettes);
-  })
-  .catch(error => console.error("Error fetching data:", error));
-
-function clearPalettes() {
-  tones.innerHTML = '';
-}
-
+// ================== HELPERS ==================
 function getContrastColor(hexColor) {
-  const r = parseInt(hexColor.substr(1, 2), 16);
-  const g = parseInt(hexColor.substr(3, 2), 16);
-  const b = parseInt(hexColor.substr(5, 2), 16);
-  return (((r * 299) + (g * 587) + (b * 114)) / 1000) >= 128
-    ? '#1e293b'
-    : '#ffffff';
+    const r = parseInt(hexColor.substr(1, 2), 16);
+    const g = parseInt(hexColor.substr(3, 2), 16);
+    const b = parseInt(hexColor.substr(5, 2), 16);
+    return (((r * 299) + (g * 587) + (b * 114)) / 1000) >= 128
+        ? '#1e293b'
+        : '#ffffff';
 }
 
 function hexToRgba(hex, alpha) {
-  const r = parseInt(hex.slice(1, 3), 16);
-  const g = parseInt(hex.slice(3, 5), 16);
-  const b = parseInt(hex.slice(5, 7), 16);
-  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 function isColorDark(color) {
-  const rgb = parseInt(color.slice(1), 16);
-  const r = (rgb >> 16) & 0xff;
-  const g = (rgb >> 8) & 0xff;
-  const b = rgb & 0xff;
-  const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-  return luminance < 128;
+    const rgb = parseInt(color.slice(1), 16);
+    const r = (rgb >> 16) & 0xff;
+    const g = (rgb >> 8) & 0xff;
+    const b = rgb & 0xff;
+    const luminance = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+    return luminance < 128;
 }
 
-document.querySelectorAll('.vibe-tag').forEach(tag => {
-  const vibeName = tag.textContent
-    .trim()
-    .split(' ')
-    .map((word, i) =>
-      i === 0
-        ? word.toLowerCase()
-        : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
-    )
-    .join('');
 
-  tag.addEventListener('click', () => {
-    const vibe = tag.textContent.trim();
-    const filtered = filterPalettesByVibe(palettes, vibe);
-    clearPalettes();
-    toner(filtered);
+// ================== FETCH + INIT ==================
+fetch('assets/data.json')
+    .then(res => res.json())
+    .then(data => {
+        allTones = data.tones;
 
-    container.className = '';
-    // container.classList.add(vibeName);
-  });
+        for (let i = allTones.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [allTones[i], allTones[j]] = [allTones[j], allTones[i]];
+        }
+
+        // Initialize current list and start loading batches
+        currentList = allTones;
+        loadMoreTones();
+
+        vibes(allTones);
+        return allTones;
+    })
+    .catch(err => console.error("Error fetching data:", err));
+
+
+// ================== LOAD MORE LOGIC ==================
+function loadMoreTones() {
+    if (currentIndex >= currentList.length) return;
+
+    const nextBatch = currentList.slice(currentIndex, currentIndex + BATCH_SIZE);
+    toner(nextBatch);
+    currentIndex += nextBatch.length;
+
+    observeTrigger();
+}
+
+// ================== INTERSECTION OBSERVER ==================
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            observer.unobserve(entry.target);
+            loadMoreTones();
+        }
+    });
+}, {
+    rootMargin: "0px 0px 200px 0px"
 });
 
-function filterPalettesByVibe(palettes, selectedVibe) {
-  if (!Array.isArray(palettes) || !selectedVibe) return [];
-  return palettes.filter(palette => palette.vibe === selectedVibe);
+function observeTrigger() {
+    // Only set observer if there is more data to load
+    if (currentIndex >= currentList.length) return;
+
+    const cards = document.querySelectorAll(".tone-card");
+    if (cards.length >= LOAD_THRESHOLD) {
+        const triggerCard = cards[cards.length - LOAD_THRESHOLD];
+        observer.observe(triggerCard);
+    }
 }
 
-function toner(colors) {
-  colors.forEach(data => {
-    const card = document.createElement('div');
-    card.className = 'card';
+// ================== RENDER ==================
+function toner(data) {
+    // Array to keep track of new elements for animation
+    const newCards = [];
 
-    card.addEventListener('mouseenter', () => {
-      card.style.boxShadow = `0 20px 50px -12px ${data.colors.theme}40, 0 0 0 1px rgba(0,0,0,0.03)`;
-    });
+    data.forEach(tone => {
+        const toneCard = document.createElement('div');
+        toneCard.classList.add('tone-card');
+        toneCard.style.background = `linear-gradient(${tone.colors.theme}, ${tone.colors.accent})`;
+        toneCard.style.color = tone.colors.color;
 
-    card.addEventListener('mouseleave', () => {
-      card.style.boxShadow =
-        '0 0 0 1px rgba(0,0,0,0.04), 0 20px 40px -10px rgba(0,0,0,0.05)';
-    });
+        const toneColors = document.createElement('div');
+        toneColors.classList.add('tone-colors');
 
-    const frame = document.createElement('div');
-    frame.className = 'palette-frame';
+        Object.entries(tone.colors).forEach(([name, color]) => {
+            const stripe = document.createElement('div');
+            stripe.classList.add('stripe');
+            stripe.style.backgroundColor = color;
+            stripe.style.color = isColorDark(color) ? "white" : "black";
 
-    const texture = document.createElement('div');
-    texture.className = 'texture-overlay';
-    frame.appendChild(texture);
+            const stripeName = document.createElement('span');
+            stripeName.classList.add('name-display');
+            stripeName.innerText = name;
 
-    const colorKeys = Object.keys(data.colors);
+            const stripeHex = document.createElement('span');
+            stripeHex.classList.add('hex-display');
+            stripeHex.innerText = color;
 
-    colorKeys.forEach(key => {
-      const hex = data.colors[key];
-      const band = document.createElement('div');
-      band.className = 'color-band';
-      band.style.backgroundColor = hex;
+            stripe.append(stripeName, stripeHex);
+            toneColors.appendChild(stripe);
+        });
 
-      const textColor = getContrastColor(hex);
+        const toneInfo = document.createElement('div');
+        toneInfo.classList.add('tone-info');
 
-      band.innerHTML = `
-        <span class="name-display" style="color:${textColor}">${key}</span>
-        <span class="hex-display" style="color:${textColor}">${hex}</span>
-      `;
+        const toneDetail = document.createElement('div');
+        toneDetail.classList.add('tone-detail');
 
-      band.addEventListener('mouseenter', () => {
-        document.body.style.backgroundColor = hexToRgba(hex, 0.15);
-      });
+        const toneTitle = document.createElement('div');
+        toneTitle.classList.add('tone-title');
+        toneTitle.innerText = tone.name;
+        toneTitle.style.color = isColorDark(tone.colors.theme) ? "white" : "black";
+        toneTitle.style.textShadow = isColorDark(tone.colors.theme) ? "1px 1px 2px black" : "3px 3px 6px rgba(0, 0, 0, 0.16)";
 
-      band.addEventListener('mouseleave', () => {
-        document.body.style.backgroundColor = 'var(--default-bg)';
-      });
+        const toneRating = document.createElement('div');
+        toneRating.classList.add('tone-rating', 'btn');
+        toneRating.innerText = tone.rating + "🌟";
 
-      band.addEventListener('click', e => {
-        e.stopPropagation();
-        navigator.clipboard.writeText(hex);
-        const originalBg = band.style.backgroundColor;
-        band.style.backgroundColor =
-          textColor === '#ffffff' ? '#ffffff' : '#000000';
-        setTimeout(() => {
-          band.style.backgroundColor = originalBg;
-        }, 150);
-      });
+        toneDetail.append(toneTitle);
 
-      frame.appendChild(band);
-    });
+        const toneAction = document.createElement('div');
+        toneAction.classList.add('tone-action');
 
-    const footer = document.createElement('div');
-    footer.className = 'card-footer';
-    footer.innerHTML = `
-      <div class="meta-row">
-        <div>
-          <h2 class="palette-title">${data.name}</h2>
-          <span style="color:var(--text-muted); font-size:0.9rem; font-weight:500;">
-            UI Kit Series
-          </span>
-        </div>
-        <div class="rating-badge">
-          <i data-lucide="star" class="star-fill"></i>
-          <span>${data.rating}</span>
-        </div>
-      </div>
-    `;
-
-    const actions = document.createElement('div');
-    actions.className = 'actions';
-
-    const copyBtn = document.createElement('button');
-    copyBtn.className = 'btn btn-primary';
-    copyBtn.style.backgroundColor = data.colors.theme;
-    copyBtn.style.color = getContrastColor(data.colors.theme);
-
-    copyBtn.innerHTML = `
-      <div class="btn-content">
+        const copyBtn = document.createElement('button');
+        copyBtn.classList.add('btn', 'btn-primary');
+        copyBtn.style.background = tone.colors.theme;
+        copyBtn.style.color = isColorDark(tone.colors.theme) ? "white" : "black";
+        // copyBtn.innerHTML = `<i class="fa-regular fa-copy"></i> Copy Palette`;
+        copyBtn.innerHTML = `
+         <div class="btn-content">
         <i data-lucide="code-2" width="18"></i>
-        <span>Copy CSS Variables</span>
+        <span>Copy Palette</span>
       </div>
       <div class="btn-success">
         <i data-lucide="check" width="18"></i>
         <span>Copied!</span>
       </div>
-    `;
+        `;
 
-    copyBtn.addEventListener('click', () => {
-      const css = `:root {\n${colorKeys
-        .map(k => `  --${k}: ${data.colors[k]};`)
-        .join('\n')}\n}`;
+        copyBtn.addEventListener('click', () => {
+            const css = `:root {
+             --background: ${tone.colors.background};
+             --color:  ${tone.colors.color} ;
+             --theme:  ${tone.colors.theme} ;
+             --accent:  ${tone.colors.accent} ;
+        }`;
 
-      navigator.clipboard.writeText(css).then(() => {
-        copyBtn.classList.add('copied');
-        const oldBg = copyBtn.style.backgroundColor;
-        copyBtn.style.backgroundColor = '#22C55E';
-        copyBtn.style.color = '#fff';
+            navigator.clipboard.writeText(css).then(() => {
+                copyBtn.classList.add('copied');
+                const oldBg = copyBtn.style.backgroundColor;
+                copyBtn.style.backgroundColor = '#22C55E';
+                copyBtn.style.color = '#fff';
 
-        setTimeout(() => {
-          copyBtn.classList.remove('copied');
-          copyBtn.style.backgroundColor = oldBg;
-          copyBtn.style.color = getContrastColor(oldBg);
-        }, 2000);
-      });
+                setTimeout(() => {
+                    copyBtn.classList.remove('copied');
+                    copyBtn.style.backgroundColor = oldBg;
+                    copyBtn.style.color = getContrastColor(oldBg);
+                }, 2000);
+            });
+        });
+
+        copyBtn.addEventListener('mouseenter', () => gsap.to(copyBtn, { scale: 1.05, duration: 0.2 }));
+        copyBtn.addEventListener('mouseleave', () => gsap.to(copyBtn, { scale: 1, duration: 0.2 }));
+
+        const demoBtn = document.createElement('button');
+        demoBtn.classList.add('btn', 'btn-icon');
+        demoBtn.style.background = tone.colors.theme;
+        demoBtn.style.color = isColorDark(tone.colors.theme) ? "white" : "black";
+        demoBtn.innerHTML = `<i class="fa-solid fa-up-right-from-square"></i>`;
+
+
+        toneAction.append(copyBtn, demoBtn);
+        toneInfo.append(toneDetail, toneAction);
+        toneCard.append(toneColors, toneInfo);
+        tonesContainer.appendChild(toneCard);
+
+        newCards.push(toneCard);
     });
 
-    const demoBtn = document.createElement('button');
-    demoBtn.className = 'btn btn-icon-only';
-    demoBtn.innerHTML = `<i data-lucide="layout" width="20"></i>`;
-
-    actions.appendChild(copyBtn);
-    actions.appendChild(demoBtn);
-    footer.appendChild(actions);
-
-    card.appendChild(frame);
-    card.appendChild(footer);
-    tones.appendChild(card);
-  });
+    // GSAP Entrance Animation for new cards
+    if (newCards.length > 0) {
+        gsap.fromTo(newCards,
+            { opacity: 0, y: 50, scale: 0.9 },
+            { opacity: 1, y: 0, scale: 1, duration: 0.5, stagger: 0.05, ease: "back.out(1.2)" }
+        );
+    }
 }
 
-lucide.createIcons();
+function vibes(data) {
+    const vibes = [...new Set(data.map(item => item.vibe))];
+
+    vibes.forEach((vibe, index) => {
+        const vibeTag = document.createElement('div');
+        vibeTag.classList.add('vibe-tag');
+        vibeTag.innerText = vibe;
+
+        vibeTag.addEventListener('click', () => {
+            gsap.to(vibeTag, {
+                scale: 0.9,
+                duration: 0.1,
+                yoyo: true,
+                repeat: 1,
+                onComplete: () => dataVibe(data, vibe)
+            });
+        });
+
+        vibeTag.addEventListener('mouseenter', () => gsap.to(vibeTag, { y: -3, duration: 0.2 }));
+        vibeTag.addEventListener('mouseleave', () => gsap.to(vibeTag, { y: 0, duration: 0.2 }));
+
+        vibesContainer.appendChild(vibeTag);
+    });
+
+    // GSAP Stagger Entrance for Vibe Tags
+    gsap.fromTo(".vibe-tag",
+        { opacity: 0, x: -20 },
+        { opacity: 1, x: 0, duration: 0.4, stagger: 0.05, ease: "power2.out" }
+    );
+}
+
+function dataVibe(data, vibe) {
+    const vibePalette = data.filter(item => item.vibe === vibe);
+    console.log(vibe, vibePalette.length);
+
+    // Update state for pagination
+    currentList = vibePalette;
+    currentIndex = 0;
+
+    // GSAP Exit Animation before clearing
+    const currentCards = document.querySelectorAll('.tone-card');
+
+    if (currentCards.length > 0) {
+        gsap.to(currentCards, {
+            opacity: 0,
+            scale: 0.8,
+            y: 20,
+            duration: 0.3,
+            stagger: 0.01,
+            ease: "power2.in",
+            onComplete: () => {
+                tonesContainer.innerHTML = '';
+                loadMoreTones(); // Start loading the filtered list
+            }
+        });
+    } else {
+        // Fallback if container is empty
+        tonesContainer.innerHTML = '';
+        loadMoreTones();
+    }
+}
+
+document.getElementById("logo").addEventListener("click", function () {
+    window.location.reload();
+});
