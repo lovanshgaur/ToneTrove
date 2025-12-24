@@ -1,1954 +1,3254 @@
 {
-"tones":[
-  {
-    "id": "qc-deep-harbor",
-    "name": "Deep Harbor",
-    "colors": {
-      "background": "#F4F6F8",
-      "color": "#1A202C",
-      "theme": "#2C3E50",
-      "accent": "#3498DB"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["trust", "corporate", "stable", "professional", "clean", "classic"]
-  },
-  {
-    "id": "qc-slate-foundation",
-    "name": "Slate Foundation",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#111827",
-      "theme": "#4B5563",
-      "accent": "#6B7280"
-    },
-    "rating": 4,
-    "vibe": "Quiet Confidence",
-    "keywords": ["minimal", "neutral", "solid", "architectural", "balanced", "serious"]
-  },
-  {
-    "id": "qc-midnight-oil",
-    "name": "Midnight Oil",
-    "colors": {
-      "background": "#0F172A",
-      "color": "#F8FAFC",
-      "theme": "#334155",
-      "accent": "#64748B"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["dark mode", "sleek", "night", "focus", "developer", "calm"]
-  },
-  {
-    "id": "qc-stone-silence",
-    "name": "Stone Silence",
-    "colors": {
-      "background": "#E5E7EB",
-      "color": "#1F2937",
-      "theme": "#374151",
-      "accent": "#9CA3AF"
-    },
-    "rating": 4,
-    "vibe": "Quiet Confidence",
-    "keywords": ["monochrome", "grey", "industrial", "modern", "simple", "uncluttered"]
-  },
-  {
-    "id": "qc-oceanic-depth",
-    "name": "Oceanic Depth",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#0C4A6E",
-      "theme": "#0369A1",
-      "accent": "#0EA5E9"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["blue", "water", "clarity", "refreshing", "steady", "reliable"]
-  },
-  {
-    "id": "qc-forest-shadow",
-    "name": "Forest Shadow",
-    "colors": {
-      "background": "#F2F5F3",
-      "color": "#052e16",
-      "theme": "#14532d",
-      "accent": "#166534"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["nature", "growth", "money", "stable", "organic", "grounded"]
-  },
-  {
-    "id": "qc-iron-clad",
-    "name": "Iron Clad",
-    "colors": {
-      "background": "#FAFAFA",
-      "color": "#0A0A0A",
-      "theme": "#525252",
-      "accent": "#737373"
-    },
-    "rating": 4,
-    "vibe": "Quiet Confidence",
-    "keywords": ["stark", "bold", "editorial", "newspaper", "direct", "strong"]
-  },
-  {
-    "id": "qc-muted-indigo",
-    "name": "Muted Indigo",
-    "colors": {
-      "background": "#EEF2FF",
-      "color": "#312E81",
-      "theme": "#4F46E5",
-      "accent": "#6366F1"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["tech", "saas", "friendly", "established", "digital", "smart"]
-  },
-  {
-    "id": "qc-polished-concrete",
-    "name": "Polished Concrete",
-    "colors": {
-      "background": "#F3F4F6",
-      "color": "#171717",
-      "theme": "#404040",
-      "accent": "#A3A3A3"
-    },
-    "rating": 4,
-    "vibe": "Quiet Confidence",
-    "keywords": ["urban", "material", "texture", "smooth", "refined", "neutral"]
-  },
-  {
-    "id": "qc-storm-cloud",
-    "name": "Storm Cloud",
-    "colors": {
-      "background": "#1E293B",
-      "color": "#F1F5F9",
-      "theme": "#475569",
-      "accent": "#94A3B8"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["weather", "moody", "atmospheric", "cool", "serious", "app"]
-  },
-  {
-    "id": "qc-regal-navy",
-    "name": "Regal Navy",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#1E1B4B",
-      "theme": "#312E81",
-      "accent": "#4338CA"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["royal", "authority", "classic", "maritime", "premium", "trustworthy"]
-  },
-  {
-    "id": "qc-charcoal-sketch",
-    "name": "Charcoal Sketch",
-    "colors": {
-      "background": "#FAFAF9",
-      "color": "#1C1917",
-      "theme": "#44403C",
-      "accent": "#78716C"
-    },
-    "rating": 4,
-    "vibe": "Quiet Confidence",
-    "keywords": ["artistic", "draft", "warm grey", "paper", "traditional", "subtle"]
-  },
-  {
-    "id": "qc-steel-beam",
-    "name": "Steel Beam",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#0F172A",
-      "theme": "#334155",
-      "accent": "#475569"
-    },
-    "rating": 4,
-    "vibe": "Quiet Confidence",
-    "keywords": ["construction", "engineering", "robust", "heavy", "reliable", "blue-grey"]
-  },
-  {
-    "id": "qc-obsidian-glass",
-    "name": "Obsidian Glass",
-    "colors": {
-      "background": "#000000",
-      "color": "#FFFFFF",
-      "theme": "#262626",
-      "accent": "#404040"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["luxury", "high-end", "glossy", "pure", "contrast", "timeless"]
-  },
-  {
-    "id": "qc-deep-space",
-    "name": "Deep Space",
-    "colors": {
-      "background": "#020617",
-      "color": "#E2E8F0",
-      "theme": "#1E293B",
-      "accent": "#334155"
-    },
-    "rating": 5,
-    "vibe": "Quiet Confidence",
-    "keywords": ["infinite", "vast", "dark", "futuristic", "exploration", "mystery"]
-  },
-  {
-    "id": "sp-blush-suede",
-    "name": "Blush Suede",
-    "colors": {
-      "background": "#FFF1F2",
-      "color": "#881337",
-      "theme": "#BE123C",
-      "accent": "#E11D48"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["feminine", "strong", "pink", "tactile", "cosmetic", "warm"]
-  },
-  {
-    "id": "sp-sage-whisper",
-    "name": "Sage Whisper",
-    "colors": {
-      "background": "#F0FDF4",
-      "color": "#14532D",
-      "theme": "#15803D",
-      "accent": "#22C55E"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["wellness", "health", "calm", "gentle", "organic", "fresh"]
-  },
-  {
-    "id": "sp-lilac-haze",
-    "name": "Lilac Haze",
-    "colors": {
-      "background": "#FAF5FF",
-      "color": "#581C87",
-      "theme": "#7E22CE",
-      "accent": "#A855F7"
-    },
-    "rating": 4,
-    "vibe": "Soft Power",
-    "keywords": ["dreamy", "creative", "purple", "magic", "soft", "ethereal"]
-  },
-  {
-    "id": "sp-peach-fuzz",
-    "name": "Peach Fuzz",
-    "colors": {
-      "background": "#FFF7ED",
-      "color": "#7C2D12",
-      "theme": "#C2410C",
-      "accent": "#FB923C"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["friendly", "approachable", "warm", "orange", "energy", "youthful"]
-  },
-  {
-    "id": "sp-dusty-rose",
-    "name": "Dusty Rose",
-    "colors": {
-      "background": "#FFF5F5",
-      "color": "#702459",
-      "theme": "#9F1239",
-      "accent": "#FB7185"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["romantic", "vintage", "nostalgic", "elegant", "floral", "muted"]
-  },
-  {
-    "id": "sp-mint-condition",
-    "name": "Mint Condition",
-    "colors": {
-      "background": "#F0FDFA",
-      "color": "#134E4A",
-      "theme": "#0D9488",
-      "accent": "#2DD4BF"
-    },
-    "rating": 4,
-    "vibe": "Soft Power",
-    "keywords": ["clean", "medical", "hygiene", "teal", "cool", "refreshing"]
-  },
-  {
-    "id": "sp-lavender-mist",
-    "name": "Lavender Mist",
-    "colors": {
-      "background": "#F5F3FF",
-      "color": "#4C1D95",
-      "theme": "#6D28D9",
-      "accent": "#8B5CF6"
-    },
-    "rating": 4,
-    "vibe": "Soft Power",
-    "keywords": ["calming", "sleep", "relax", "digital", "app", "smooth"]
-  },
-  {
-    "id": "sp-sky-loft",
-    "name": "Sky Loft",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#0369A1",
-      "theme": "#0EA5E9",
-      "accent": "#38BDF8"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["air", "cloud", "light", "open", "breezy", "spacious"]
-  },
-  {
-    "id": "sp-coral-reef",
-    "name": "Coral Reef",
-    "colors": {
-      "background": "#FEF2F2",
-      "color": "#991B1B",
-      "theme": "#EF4444",
-      "accent": "#F87171"
-    },
-    "rating": 4,
-    "vibe": "Soft Power",
-    "keywords": ["underwater", "living", "vibrant", "red", "alert", "passion"]
-  },
-  {
-    "id": "sp-butter-cream",
-    "name": "Butter Cream",
-    "colors": {
-      "background": "#FEFCE8",
-      "color": "#713F12",
-      "theme": "#EAB308",
-      "accent": "#FACC15"
-    },
-    "rating": 3,
-    "vibe": "Soft Power",
-    "keywords": ["food", "rich", "yellow", "sunshine", "morning", "cheerful"]
-  },
-  {
-    "id": "sp-sand-dune",
-    "name": "Sand Dune",
-    "colors": {
-      "background": "#F5F5F4",
-      "color": "#44403C",
-      "theme": "#A8A29E",
-      "accent": "#D6D3D1"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["earthy", "desert", "travel", "neutral", "beige", "natural"]
-  },
-  {
-    "id": "sp-pale-moss",
-    "name": "Pale Moss",
-    "colors": {
-      "background": "#ECFCCB",
-      "color": "#365314",
-      "theme": "#65A30D",
-      "accent": "#84CC16"
-    },
-    "rating": 3,
-    "vibe": "Soft Power",
-    "keywords": ["spring", "garden", "lime", "zest", "growth", "eco"]
-  },
-  {
-    "id": "sp-periwinkle-dream",
-    "name": "Periwinkle Dream",
-    "colors": {
-      "background": "#EEF2FF",
-      "color": "#3730A3",
-      "theme": "#6366F1",
-      "accent": "#818CF8"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["blurple", "tech", "modern", "friendly", "innovative", "soft"]
-  },
-  {
-    "id": "sp-rose-quartz",
-    "name": "Rose Quartz",
-    "colors": {
-      "background": "#FFF1F2",
-      "color": "#9F1239",
-      "theme": "#FB7185",
-      "accent": "#FECDD3"
-    },
-    "rating": 5,
-    "vibe": "Soft Power",
-    "keywords": ["crystal", "healing", "gentle", "love", "care", "pink"]
-  },
-  {
-    "id": "sp-morning-mist",
-    "name": "Morning Mist",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#334155",
-      "theme": "#94A3B8",
-      "accent": "#CBD5E1"
-    },
-    "rating": 4,
-    "vibe": "Soft Power",
-    "keywords": ["dawn", "fog", "cool", "transition", "quiet", "grey-blue"]
-  },
-  {
-    "id": "mr-clay-pot",
-    "name": "Clay Pot",
-    "colors": {
-      "background": "#FBF7F3",
-      "color": "#4A3B32",
-      "theme": "#A65D43",
-      "accent": "#D98C71"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["ceramics", "handmade", "earth", "craft", "artisan", "warm"]
-  },
-  {
-    "id": "mr-dried-herb",
-    "name": "Dried Herb",
-    "colors": {
-      "background": "#F5F5F0",
-      "color": "#3D4035",
-      "theme": "#7E8266",
-      "accent": "#A3A88B"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["kitchen", "cooking", "natural", "sage", "botanical", "rustic"]
-  },
-  {
-    "id": "mr-burnt-ember",
-    "name": "Burnt Ember",
-    "colors": {
-      "background": "#292524",
-      "color": "#FAFAF9",
-      "theme": "#EA580C",
-      "accent": "#F97316"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["fire", "warmth", "gathering", "night", "intense", "cozy"]
-  },
-  {
-    "id": "mr-incense-smoke",
-    "name": "Incense Smoke",
-    "colors": {
-      "background": "#E7E5E4",
-      "color": "#44403C",
-      "theme": "#78716C",
-      "accent": "#A8A29E"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["scent", "meditation", "grey", "hazy", "spiritual", "calm"]
-  },
-  {
-    "id": "mr-matcha-bowl",
-    "name": "Matcha Bowl",
-    "colors": {
-      "background": "#F2F5E9",
-      "color": "#283618",
-      "theme": "#606C38",
-      "accent": "#BCBD8B"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["tea", "ceremony", "green", "japan", "tradition", "peace"]
-  },
-  {
-    "id": "mr-terracotta-sun",
-    "name": "Terracotta Sun",
-    "colors": {
-      "background": "#FFF7ED",
-      "color": "#7C2D12",
-      "theme": "#C2410C",
-      "accent": "#FB923C"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["mediterranean", "summer", "warm", "tile", "architecture", "orange"]
-  },
-  {
-    "id": "mr-indigo-dye",
-    "name": "Indigo Dye",
-    "colors": {
-      "background": "#F1F5F9",
-      "color": "#172554",
-      "theme": "#1E3A8A",
-      "accent": "#4338CA"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["textile", "fabric", "shibori", "blue", "deep", "handmade"]
-  },
-  {
-    "id": "mr-stone-hearth",
-    "name": "Stone Hearth",
-    "colors": {
-      "background": "#D6D3D1",
-      "color": "#1C1917",
-      "theme": "#57534E",
-      "accent": "#78716C"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["fireplace", "home", "solid", "grey-brown", "grounded", "warm"]
-  },
-  {
-    "id": "mr-olive-grove",
-    "name": "Olive Grove",
-    "colors": {
-      "background": "#FEFCF3",
-      "color": "#3F4036",
-      "theme": "#6B705C",
-      "accent": "#A5A58D"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["italy", "food", "oil", "rich", "green-brown", "sophisticated"]
-  },
-  {
-    "id": "mr-spiced-chai",
-    "name": "Spiced Chai",
-    "colors": {
-      "background": "#FDF6E3",
-      "color": "#5D4037",
-      "theme": "#8D6E63",
-      "accent": "#BCAAA4"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["beverage", "comfort", "brown", "autumn", "aroma", "sweet"]
-  },
-  {
-    "id": "mr-linen-sheet",
-    "name": "Linen Sheet",
-    "colors": {
-      "background": "#FAF9F6",
-      "color": "#52525B",
-      "theme": "#D4D4D8",
-      "accent": "#A1A1AA"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["bedding", "sleep", "clean", "texture", "white", "simple"]
-  },
-  {
-    "id": "mr-bamboo-mat",
-    "name": "Bamboo Mat",
-    "colors": {
-      "background": "#F7F5EE",
-      "color": "#423E28",
-      "theme": "#B5AD77",
-      "accent": "#D9D2A3"
-    },
-    "rating": 3,
-    "vibe": "Modern Ritual",
-    "keywords": ["wood", "light", "asian", "spa", "relax", "yellow-green"]
-  },
-  {
-    "id": "mr-sumi-ink",
-    "name": "Sumi Ink",
-    "colors": {
-      "background": "#F5F5F5",
-      "color": "#000000",
-      "theme": "#262626",
-      "accent": "#525252"
-    },
-    "rating": 5,
-    "vibe": "Modern Ritual",
-    "keywords": ["calligraphy", "black", "art", "expressive", "contrast", "fluid"]
-  },
-  {
-    "id": "mr-red-clay",
-    "name": "Red Clay",
-    "colors": {
-      "background": "#FFF1F1",
-      "color": "#7F1D1D",
-      "theme": "#B91C1C",
-      "accent": "#DC2626"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["pottery", "earth", "raw", "sculpture", "bold", "primitive"]
-  },
-  {
-    "id": "mr-river-rock",
-    "name": "River Rock",
-    "colors": {
-      "background": "#F3F4F6",
-      "color": "#111827",
-      "theme": "#6B7280",
-      "accent": "#9CA3AF"
-    },
-    "rating": 4,
-    "vibe": "Modern Ritual",
-    "keywords": ["smooth", "water", "grey", "cool", "nature", "meditative"]
-  },
-  {
-    "id": "dz-clean-slate",
-    "name": "Clean Slate",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#374151",
-      "theme": "#E5E7EB",
-      "accent": "#9CA3AF"
-    },
-    "rating": 5,
-    "vibe": "Digital Zen",
-    "keywords": ["minimalist", "ui", "framework", "start", "blank", "potential"]
-  },
-  {
-    "id": "dz-soft-server",
-    "name": "Soft Server",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#334155",
-      "theme": "#94A3B8",
-      "accent": "#CBD5E1"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["data", "cloud", "network", "cool", "technical", "quiet"]
-  },
-  {
-    "id": "dz-pixel-mist",
-    "name": "Pixel Mist",
-    "colors": {
-      "background": "#F0FdfA",
-      "color": "#134E4A",
-      "theme": "#5EEAD4",
-      "accent": "#99F6E4"
-    },
-    "rating": 5,
-    "vibe": "Digital Zen",
-    "keywords": ["screen", "display", "resolution", "teal", "mint", "light"]
-  },
-  {
-    "id": "dz-virtual-sky",
-    "name": "Virtual Sky",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#0C4A6E",
-      "theme": "#7DD3FC",
-      "accent": "#BAE6FD"
-    },
-    "rating": 5,
-    "vibe": "Digital Zen",
-    "keywords": ["vr", "ar", "simulation", "blue", "air", "infinite"]
-  },
-  {
-    "id": "dz-system-grey",
-    "name": "System Grey",
-    "colors": {
-      "background": "#FAFAFA",
-      "color": "#171717",
-      "theme": "#525252",
-      "accent": "#D4D4D4"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["os", "interface", "control", "neutral", "balanced", "utility"]
-  },
-  {
-    "id": "dz-code-stream",
-    "name": "Code Stream",
-    "colors": {
-      "background": "#1E293B",
-      "color": "#E2E8F0",
-      "theme": "#38BDF8",
-      "accent": "#818CF8"
-    },
-    "rating": 5,
-    "vibe": "Digital Zen",
-    "keywords": ["development", "ide", "syntax", "dark", "programming", "flow"]
-  },
-  {
-    "id": "dz-lucid-dream",
-    "name": "Lucid Dream",
-    "colors": {
-      "background": "#FAF5FF",
-      "color": "#4C1D95",
-      "theme": "#D8B4FE",
-      "accent": "#E9D5FF"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["awareness", "sleep", "purple", "soft", "conscious", "calm"]
-  },
-  {
-    "id": "dz-glitch-free",
-    "name": "Glitch Free",
-    "colors": {
-      "background": "#ECFEFF",
-      "color": "#164E63",
-      "theme": "#67E8F9",
-      "accent": "#A5F3FC"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["smooth", "performance", "cyan", "electric", "fast", "clean"]
-  },
-  {
-    "id": "dz-cursor-blink",
-    "name": "Cursor Blink",
-    "colors": {
-      "background": "#18181B",
-      "color": "#F4F4F5",
-      "theme": "#71717A",
-      "accent": "#22C55E"
-    },
-    "rating": 5,
-    "vibe": "Digital Zen",
-    "keywords": ["terminal", "command", "prompt", "waiting", "input", "ready"]
-  },
-  {
-    "id": "dz-white-noise",
-    "name": "White Noise",
-    "colors": {
-      "background": "#F5F5F5",
-      "color": "#737373",
-      "theme": "#D4D4D4",
-      "accent": "#E5E5E5"
-    },
-    "rating": 3,
-    "vibe": "Digital Zen",
-    "keywords": ["static", "background", "audio", "hum", "neutral", "flat"]
-  },
-  {
-    "id": "dz-fiber-optic",
-    "name": "Fiber Optic",
-    "colors": {
-      "background": "#020617",
-      "color": "#F1F5F9",
-      "theme": "#6366F1",
-      "accent": "#818CF8"
-    },
-    "rating": 5,
-    "vibe": "Digital Zen",
-    "keywords": ["speed", "light", "internet", "connection", "indigo", "fast"]
-  },
-  {
-    "id": "dz-cache-clear",
-    "name": "Cache Clear",
-    "colors": {
-      "background": "#EFF6FF",
-      "color": "#1E3A8A",
-      "theme": "#93C5FD",
-      "accent": "#BFDBFE"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["fresh", "reload", "empty", "blue", "start", "new"]
-  },
-  {
-    "id": "dz-silent-fan",
-    "name": "Silent Fan",
-    "colors": {
-      "background": "#F1F5F9",
-      "color": "#334155",
-      "theme": "#94A3B8",
-      "accent": "#E2E8F0"
-    },
-    "rating": 3,
-    "vibe": "Digital Zen",
-    "keywords": ["cooling", "hardware", "quiet", "grey-blue", "efficient", "running"]
-  },
-  {
-    "id": "dz-monitor-glow",
-    "name": "Monitor Glow",
-    "colors": {
-      "background": "#27272A",
-      "color": "#FAFAFA",
-      "theme": "#52525B",
-      "accent": "#A1A1AA"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["screen", "light", "darkroom", "gaming", "focus", "immersive"]
-  },
-  {
-    "id": "dz-vapor-trail",
-    "name": "Vapor Trail",
-    "colors": {
-      "background": "#FDF4FF",
-      "color": "#701A75",
-      "theme": "#F0ABFC",
-      "accent": "#F5D0FE"
-    },
-    "rating": 4,
-    "vibe": "Digital Zen",
-    "keywords": ["aesthetic", "retro", "90s", "pink", "purple", "faded"]
-  },
-  {
-    "id": "wi-vintage-paper",
-    "name": "Vintage Paper",
-    "colors": {
-      "background": "#FEFCE8",
-      "color": "#422006",
-      "theme": "#A16207",
-      "accent": "#CA8A04"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["book", "read", "library", "history", "yellow", "aged"]
-  },
-  {
-    "id": "wi-oxford-study",
-    "name": "Oxford Study",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#172554",
-      "theme": "#1E40AF",
-      "accent": "#60A5FA"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["academic", "university", "blue", "smart", "education", "classic"]
-  },
-  {
-    "id": "wi-leather-bound",
-    "name": "Leather Bound",
-    "colors": {
-      "background": "#FFF7ED",
-      "color": "#451A03",
-      "theme": "#92400E",
-      "accent": "#B45309"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["premium", "cover", "texture", "brown", "rich", "tradition"]
-  },
-  {
-    "id": "wi-fountain-pen",
-    "name": "Fountain Pen",
-    "colors": {
-      "background": "#F0FdfA",
-      "color": "#042F2E",
-      "theme": "#115E59",
-      "accent": "#14B8A6"
-    },
-    "rating": 4,
-    "vibe": "Warm Intelligence",
-    "keywords": ["writing", "ink", "teal", "flow", "signature", "personal"]
-  },
-  {
-    "id": "wi-sepia-tone",
-    "name": "Sepia Tone",
-    "colors": {
-      "background": "#FAF5F0",
-      "color": "#292524",
-      "theme": "#78350F",
-      "accent": "#B45309"
-    },
-    "rating": 4,
-    "vibe": "Warm Intelligence",
-    "keywords": ["photo", "memory", "past", "brown", "nostalgia", "warm"]
-  },
-  {
-    "id": "wi-museum-hall",
-    "name": "Museum Hall",
-    "colors": {
-      "background": "#FAFAFA",
-      "color": "#171717",
-      "theme": "#737373",
-      "accent": "#A3A3A3"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["gallery", "art", "space", "quiet", "observe", "culture"]
-  },
-  {
-    "id": "wi-mahogany-desk",
-    "name": "Mahogany Desk",
-    "colors": {
-      "background": "#FFF1F2",
-      "color": "#4C0519",
-      "theme": "#9F1239",
-      "accent": "#BE123C"
-    },
-    "rating": 4,
-    "vibe": "Warm Intelligence",
-    "keywords": ["office", "executive", "wood", "red", "dark", "power"]
-  },
-  {
-    "id": "wi-candle-light",
-    "name": "Candle Light",
-    "colors": {
-      "background": "#1C1917",
-      "color": "#FEF3C7",
-      "theme": "#F59E0B",
-      "accent": "#FCD34D"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["focus", "night", "study", "warm", "glow", "idea"]
-  },
-  {
-    "id": "wi-old-map",
-    "name": "Old Map",
-    "colors": {
-      "background": "#FEF9C3",
-      "color": "#365314",
-      "theme": "#854D0E",
-      "accent": "#A16207"
-    },
-    "rating": 4,
-    "vibe": "Warm Intelligence",
-    "keywords": ["travel", "cartography", "explore", "world", "detail", "parchment"]
-  },
-  {
-    "id": "wi- tweed-jacket",
-    "name": "Tweed Jacket",
-    "colors": {
-      "background": "#F0FDF4",
-      "color": "#064E3B",
-      "theme": "#065F46",
-      "accent": "#10B981"
-    },
-    "rating": 4,
-    "vibe": "Warm Intelligence",
-    "keywords": ["clothing", "professor", "texture", "green", "woven", "classic"]
-  },
-  {
-    "id": "wi-brass-lamp",
-    "name": "Brass Lamp",
-    "colors": {
-      "background": "#0F172A",
-      "color": "#FDE047",
-      "theme": "#EAB308",
-      "accent": "#FACC15"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["metal", "light", "fixture", "gold", "shine", "illuminate"]
-  },
-  {
-    "id": "wi-chalk-board",
-    "name": "Chalk Board",
-    "colors": {
-      "background": "#064E3B",
-      "color": "#ECFDF5",
-      "theme": "#34D399",
-      "accent": "#10B981"
-    },
-    "rating": 3,
-    "vibe": "Warm Intelligence",
-    "keywords": ["school", "learn", "teach", "green", "dust", "math"]
-  },
-  {
-    "id": "wi-grey-matter",
-    "name": "Grey Matter",
-    "colors": {
-      "background": "#F3F4F6",
-      "color": "#111827",
-      "theme": "#6B7280",
-      "accent": "#9CA3AF"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["brain", "think", "neuron", "neutral", "smart", "logic"]
-  },
-  {
-    "id": "wi-coffee-stain",
-    "name": "Coffee Stain",
-    "colors": {
-      "background": "#FFFBEB",
-      "color": "#451A03",
-      "theme": "#92400E",
-      "accent": "#B45309"
-    },
-    "rating": 4,
-    "vibe": "Warm Intelligence",
-    "keywords": ["work", "late", "caffeine", "mug", "energy", "brown"]
-  },
-  {
-    "id": "wi-ink-pot",
-    "name": "Ink Pot",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#020617",
-      "theme": "#1E293B",
-      "accent": "#334155"
-    },
-    "rating": 5,
-    "vibe": "Warm Intelligence",
-    "keywords": ["write", "permanent", "black", "blue", "dip", "pen"]
-  },
-  {
-    "id": "ul-champagne-gold",
-    "name": "Champagne Gold",
-    "colors": {
-      "background": "#09090B",
-      "color": "#FAFAFA",
-      "theme": "#EAB308",
-      "accent": "#CA8A04"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["expensive", "celebrate", "drink", "bubbly", "premium", "night"]
-  },
-  {
-    "id": "ul-silk-robe",
-    "name": "Silk Robe",
-    "colors": {
-      "background": "#FDF2F8",
-      "color": "#831843",
-      "theme": "#BE185D",
-      "accent": "#DB2777"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["smooth", "fabric", "comfort", "pink", "rich", "soft"]
-  },
-  {
-    "id": "ul-marble-foyer",
-    "name": "Marble Foyer",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#0F172A",
-      "theme": "#94A3B8",
-      "accent": "#CBD5E1"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["stone", "entrance", "grand", "white", "cool", "clean"]
-  },
-  {
-    "id": "ul-velvet-rope",
-    "name": "Velvet Rope",
-    "colors": {
-      "background": "#450A0A",
-      "color": "#FEF2F2",
-      "theme": "#991B1B",
-      "accent": "#DC2626"
-    },
-    "rating": 4,
-    "vibe": "Understated Luxury",
-    "keywords": ["vip", "exclusive", "access", "red", "soft", "event"]
-  },
-  {
-    "id": "ul-emerald-city",
-    "name": "Emerald City",
-    "colors": {
-      "background": "#022C22",
-      "color": "#ECFDF5",
-      "theme": "#10B981",
-      "accent": "#34D399"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["gem", "green", "jewelry", "rare", "vibrant", "deep"]
-  },
-  {
-    "id": "ul-caviar-black",
-    "name": "Caviar Black",
-    "colors": {
-      "background": "#000000",
-      "color": "#D4D4D4",
-      "theme": "#262626",
-      "accent": "#525252"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["food", "expensive", "taste", "minimal", "dark", "pearl"]
-  },
-  {
-    "id": "ul-piano-key",
-    "name": "Piano Key",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "theme": "#171717",
-      "accent": "#404040"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["music", "contrast", "classic", "instrument", "ivory", "ebony"]
-  },
-  {
-    "id": "ul-saffron-thread",
-    "name": "Saffron Thread",
-    "colors": {
-      "background": "#FFFBEB",
-      "color": "#78350F",
-      "theme": "#D97706",
-      "accent": "#F59E0B"
-    },
-    "rating": 4,
-    "vibe": "Understated Luxury",
-    "keywords": ["spice", "rare", "cooking", "orange", "flavor", "delicate"]
-  },
-  {
-    "id": "ul-truffle-oil",
-    "name": "Truffle Oil",
-    "colors": {
-      "background": "#27272A",
-      "color": "#E5E5E5",
-      "theme": "#A16207",
-      "accent": "#CA8A04"
-    },
-    "rating": 3,
-    "vibe": "Understated Luxury",
-    "keywords": ["gourmet", "earthy", "rich", "brown-gold", "savory", "scent"]
-  },
-  {
-    "id": "ul-yacht-deck",
-    "name": "Yacht Deck",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#1E3A8A",
-      "theme": "#0C4A6E",
-      "accent": "#38BDF8"
-    },
-    "rating": 4,
-    "vibe": "Understated Luxury",
-    "keywords": ["sea", "boat", "travel", "wealth", "blue", "sun"]
-  },
-  {
-    "id": "ul-porcelain-vase",
-    "name": "Porcelain Vase",
-    "colors": {
-      "background": "#FAFAFA",
-      "color": "#1E40AF",
-      "theme": "#3B82F6",
-      "accent": "#60A5FA"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["china", "fragile", "art", "blue-white", "pattern", "collectible"]
-  },
-  {
-    "id": "ul-cashmere-sweater",
-    "name": "Cashmere Sweater",
-    "colors": {
-      "background": "#F3F4F6",
-      "color": "#374151",
-      "theme": "#9CA3AF",
-      "accent": "#D1D5DB"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["wool", "soft", "warm", "expensive", "grey", "winter"]
-  },
-  {
-    "id": "ul-opera-box",
-    "name": "Opera Box",
-    "colors": {
-      "background": "#450A0A",
-      "color": "#FEFCE8",
-      "theme": "#B45309",
-      "accent": "#F59E0B"
-    },
-    "rating": 4,
-    "vibe": "Understated Luxury",
-    "keywords": ["theatre", "show", "red", "gold", "night", "class"]
-  },
-  {
-    "id": "ul-limousine-tint",
-    "name": "Limousine Tint",
-    "colors": {
-      "background": "#000000",
-      "color": "#A3A3A3",
-      "theme": "#262626",
-      "accent": "#404040"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["car", "private", "hidden", "black", "glass", "ride"]
-  },
-  {
-    "id": "ul-platinum-card",
-    "name": "Platinum Card",
-    "colors": {
-      "background": "#E5E7EB",
-      "color": "#111827",
-      "theme": "#9CA3AF",
-      "accent": "#D1D5DB"
-    },
-    "rating": 5,
-    "vibe": "Understated Luxury",
-    "keywords": ["credit", "bank", "money", "metal", "silver", "status"]
-  },
-  {
-    "id": "cd-swiss-grid",
-    "name": "Swiss Grid",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "theme": "#EF4444",
-      "accent": "#DC2626"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["design", "layout", "typography", "red", "bold", "clean"]
-  },
-  {
-    "id": "cd-bauhaus-blue",
-    "name": "Bauhaus Blue",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#172554",
-      "theme": "#2563EB",
-      "accent": "#3B82F6"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["art", "school", "primary", "shape", "form", "function"]
-  },
-  {
-    "id": "cd-yellow-pencil",
-    "name": "Yellow Pencil",
-    "colors": {
-      "background": "#FEFCE8",
-      "color": "#422006",
-      "theme": "#FACC15",
-      "accent": "#EAB308"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["draw", "sketch", "tool", "create", "bright", "wood"]
-  },
-  {
-    "id": "cd-dark-room",
-    "name": "Dark Room",
-    "colors": {
-      "background": "#18181B",
-      "color": "#FAFAFA",
-      "theme": "#DC2626",
-      "accent": "#EF4444"
-    },
-    "rating": 4,
-    "vibe": "Creative Discipline",
-    "keywords": ["photo", "develop", "film", "red-light", "process", "image"]
-  },
-  {
-    "id": "cd-cyan-print",
-    "name": "Cyan Print",
-    "colors": {
-      "background": "#ECFEFF",
-      "color": "#164E63",
-      "theme": "#06B6D4",
-      "accent": "#22D3EE"
-    },
-    "rating": 4,
-    "vibe": "Creative Discipline",
-    "keywords": ["cmyk", "ink", "press", "blue-green", "vibrant", "modern"]
-  },
-  {
-    "id": "cd-magenta-mix",
-    "name": "Magenta Mix",
-    "colors": {
-      "background": "#FDF2F8",
-      "color": "#831843",
-      "theme": "#DB2777",
-      "accent": "#EC4899"
-    },
-    "rating": 4,
-    "vibe": "Creative Discipline",
-    "keywords": ["cmyk", "color", "print", "pink", "bold", "graphic"]
-  },
-  {
-    "id": "cd-grid-paper",
-    "name": "Grid Paper",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#3B82F6",
-      "theme": "#DBEAFE",
-      "accent": "#BFDBFE"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["math", "draft", "line", "blue", "precise", "plan"]
-  },
-  {
-    "id": "cd-ruler-edge",
-    "name": "Ruler Edge",
-    "colors": {
-      "background": "#F5F5F5",
-      "color": "#171717",
-      "theme": "#F59E0B",
-      "accent": "#FBBF24"
-    },
-    "rating": 4,
-    "vibe": "Creative Discipline",
-    "keywords": ["measure", "straight", "tool", "yellow", "metal", "exact"]
-  },
-  {
-    "id": "cd-vector-point",
-    "name": "Vector Point",
-    "colors": {
-      "background": "#F8FAFC",
-      "color": "#0F172A",
-      "theme": "#6366F1",
-      "accent": "#818CF8"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["illustrator", "path", "anchor", "digital", "sharp", "edit"]
-  },
-  {
-    "id": "cd-layer-mask",
-    "name": "Layer Mask",
-    "colors": {
-      "background": "#000000",
-      "color": "#FFFFFF",
-      "theme": "#A3A3A3",
-      "accent": "#525252"
-    },
-    "rating": 4,
-    "vibe": "Creative Discipline",
-    "keywords": ["photoshop", "hide", "reveal", "alpha", "channel", "mono"]
-  },
-  {
-    "id": "cd-white-space",
-    "name": "White Space",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#525252",
-      "theme": "#E5E5E5",
-      "accent": "#D4D4D4"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["breathing", "room", "open", "layout", "essential", "zen"]
-  },
-  {
-    "id": "cd-kerning-pair",
-    "name": "Kerning Pair",
-    "colors": {
-      "background": "#FEF2F2",
-      "color": "#000000",
-      "theme": "#EF4444",
-      "accent": "#F87171"
-    },
-    "rating": 4,
-    "vibe": "Creative Discipline",
-    "keywords": ["text", "adjust", "space", "letters", "detail", "font"]
-  },
-  {
-    "id": "cd-golden-ratio",
-    "name": "Golden Ratio",
-    "colors": {
-      "background": "#FFFBEB",
-      "color": "#000000",
-      "theme": "#F59E0B",
-      "accent": "#FBBF24"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["math", "beauty", "spiral", "nature", "proportion", "perfect"]
-  },
-  {
-    "id": "cd-lorem-ipsum",
-    "name": "Lorem Ipsum",
-    "colors": {
-      "background": "#E5E7EB",
-      "color": "#6B7280",
-      "theme": "#9CA3AF",
-      "accent": "#D1D5DB"
-    },
-    "rating": 3,
-    "vibe": "Creative Discipline",
-    "keywords": ["placeholder", "text", "latin", "filler", "grey", "mockup"]
-  },
-  {
-    "id": "cd-pixel-perfect",
-    "name": "Pixel Perfect",
-    "colors": {
-      "background": "#F0FDF4",
-      "color": "#166534",
-      "theme": "#22C55E",
-      "accent": "#4ADE80"
-    },
-    "rating": 5,
-    "vibe": "Creative Discipline",
-    "keywords": ["align", "grid", "exact", "sharp", "green", "correct"]
-  },
-  {
-    "id": "ht-warm-skin",
-    "name": "Warm Skin",
-    "colors": {
-      "background": "#FFF1F2",
-      "color": "#881337",
-      "theme": "#FB7185",
-      "accent": "#FDA4AF"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["inclusive", "people", "touch", "soft", "pink", "organic"]
-  },
-  {
-    "id": "ht-bio-green",
-    "name": "Bio Green",
-    "colors": {
-      "background": "#ECFCCB",
-      "color": "#365314",
-      "theme": "#84CC16",
-      "accent": "#A3E635"
-    },
-    "rating": 4,
-    "vibe": "Human Tech",
-    "keywords": ["life", "plant", "tech", "growth", "lab", "fresh"]
-  },
-  {
-    "id": "ht-pulse-red",
-    "name": "Pulse Red",
-    "colors": {
-      "background": "#FEF2F2",
-      "color": "#7F1D1D",
-      "theme": "#EF4444",
-      "accent": "#F87171"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["heart", "beat", "health", "monitor", "alive", "vital"]
-  },
-  {
-    "id": "ht-smart-clay",
-    "name": "Smart Clay",
-    "colors": {
-      "background": "#FFEDD5",
-      "color": "#7C2D12",
-      "theme": "#FB923C",
-      "accent": "#FDBA74"
-    },
-    "rating": 4,
-    "vibe": "Human Tech",
-    "keywords": ["earth", "mold", "create", "warm", "orange", "friendly"]
-  },
-  {
-    "id": "ht-iris-scan",
-    "name": "Iris Scan",
-    "colors": {
-      "background": "#EFF6FF",
-      "color": "#172554",
-      "theme": "#3B82F6",
-      "accent": "#60A5FA"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["eye", "id", "security", "blue", "unique", "personal"]
-  },
-  {
-    "id": "ht-voice-wave",
-    "name": "Voice Wave",
-    "colors": {
-      "background": "#FAF5FF",
-      "color": "#581C87",
-      "theme": "#A855F7",
-      "accent": "#C084FC"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["sound", "speak", "assistant", "purple", "listen", "ai"]
-  },
-  {
-    "id": "ht-finger-print",
-    "name": "Finger Print",
-    "colors": {
-      "background": "#F5F5F4",
-      "color": "#1C1917",
-      "theme": "#78716C",
-      "accent": "#A8A29E"
-    },
-    "rating": 4,
-    "vibe": "Human Tech",
-    "keywords": ["identity", "touch", "unique", "grey", "security", "access"]
-  },
-  {
-    "id": "ht-neural-net",
-    "name": "Neural Net",
-    "colors": {
-      "background": "#0F172A",
-      "color": "#F8FAFC",
-      "theme": "#0EA5E9",
-      "accent": "#38BDF8"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["brain", "connect", "ai", "learning", "nodes", "blue"]
-  },
-  {
-    "id": "ht-haptic-buzz",
-    "name": "Haptic Buzz",
-    "colors": {
-      "background": "#FEFCE8",
-      "color": "#713F12",
-      "theme": "#EAB308",
-      "accent": "#FACC15"
-    },
-    "rating": 3,
-    "vibe": "Human Tech",
-    "keywords": ["vibrate", "feedback", "touch", "yellow", "alert", "feel"]
-  },
-  {
-    "id": "ht-face-id",
-    "name": "Face ID",
-    "colors": {
-      "background": "#F0FDF4",
-      "color": "#14532D",
-      "theme": "#22C55E",
-      "accent": "#4ADE80"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["scan", "recognize", "unlock", "green", "secure", "selfie"]
-  },
-  {
-    "id": "ht-user-flow",
-    "name": "User Flow",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#0C4A6E",
-      "theme": "#0284C7",
-      "accent": "#38BDF8"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["path", "journey", "ux", "smooth", "guide", "blue"]
-  },
-  {
-    "id": "ht-avatar-grey",
-    "name": "Avatar Grey",
-    "colors": {
-      "background": "#E5E5E5",
-      "color": "#404040",
-      "theme": "#A3A3A3",
-      "accent": "#D4D4D4"
-    },
-    "rating": 3,
-    "vibe": "Human Tech",
-    "keywords": ["profile", "default", "person", "neutral", "placeholder", "icon"]
-  },
-  {
-    "id": "ht-social-circle",
-    "name": "Social Circle",
-    "colors": {
-      "background": "#EEF2FF",
-      "color": "#312E81",
-      "theme": "#4F46E5",
-      "accent": "#6366F1"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["community", "friends", "network", "indigo", "group", "share"]
-  },
-  {
-    "id": "ht-chat-bubble",
-    "name": "Chat Bubble",
-    "colors": {
-      "background": "#ECFCCB",
-      "color": "#365314",
-      "theme": "#84CC16",
-      "accent": "#A3E635"
-    },
-    "rating": 4,
-    "vibe": "Human Tech",
-    "keywords": ["message", "talk", "text", "green", "pop", "say"]
-  },
-  {
-    "id": "ht-virtual-hug",
-    "name": "Virtual Hug",
-    "colors": {
-      "background": "#FFF1F2",
-      "color": "#9F1239",
-      "theme": "#F43F5E",
-      "accent": "#FB7185"
-    },
-    "rating": 5,
-    "vibe": "Human Tech",
-    "keywords": ["love", "care", "emoji", "pink", "support", "distance"]
-  },
-  {
-    "id": "fm-rocket-fuel",
-    "name": "Rocket Fuel",
-    "colors": {
-      "background": "#0F172A",
-      "color": "#F8FAFC",
-      "theme": "#3B82F6",
-      "accent": "#EF4444"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["launch", "speed", "energy", "burn", "fast", "go"]
-  },
-  {
-    "id": "fm-sprint-start",
-    "name": "Sprint Start",
-    "colors": {
-      "background": "#F0FDF4",
-      "color": "#14532D",
-      "theme": "#22C55E",
-      "accent": "#4ADE80"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["run", "race", "begin", "green", "agile", "move"]
-  },
-  {
-    "id": "fm-laser-focus",
-    "name": "Laser Focus",
-    "colors": {
-      "background": "#000000",
-      "color": "#FFFFFF",
-      "theme": "#DC2626",
-      "accent": "#EF4444"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["target", "aim", "red", "sharp", "precision", "hit"]
-  },
-  {
-    "id": "fm-deep-work",
-    "name": "Deep Work",
-    "colors": {
-      "background": "#1E1B4B",
-      "color": "#EEF2FF",
-      "theme": "#4338CA",
-      "accent": "#6366F1"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["concentrate", "flow", "quiet", "dark-blue", "productive", "solo"]
-  },
-  {
-    "id": "fm-kanban-board",
-    "name": "Kanban Board",
-    "colors": {
-      "background": "#F3F4F6",
-      "color": "#1F2937",
-      "theme": "#3B82F6",
-      "accent": "#F59E0B"
-    },
-    "rating": 4,
-    "vibe": "Focused Momentum",
-    "keywords": ["organize", "task", "move", "progress", "to-do", "done"]
-  },
-  {
-    "id": "fm-coffee-run",
-    "name": "Coffee Run",
-    "colors": {
-      "background": "#FFFBEB",
-      "color": "#451A03",
-      "theme": "#92400E",
-      "accent": "#D97706"
-    },
-    "rating": 4,
-    "vibe": "Focused Momentum",
-    "keywords": ["caffeine", "break", "energy", "brown", "fast", "refill"]
-  },
-  {
-    "id": "fm-electric-car",
-    "name": "Electric Car",
-    "colors": {
-      "background": "#111827",
-      "color": "#F3F4F6",
-      "theme": "#06B6D4",
-      "accent": "#22D3EE"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["drive", "future", "silent", "cyan", "battery", "charge"]
-  },
-  {
-    "id": "fm-finish-line",
-    "name": "Finish Line",
-    "colors": {
-      "background": "#FFFFFF",
-      "color": "#000000",
-      "theme": "#171717",
-      "accent": "#FACC15"
-    },
-    "rating": 4,
-    "vibe": "Focused Momentum",
-    "keywords": ["win", "end", "checkered", "complete", "success", "flag"]
-  },
-  {
-    "id": "fm-bullet-train",
-    "name": "Bullet Train",
-    "colors": {
-      "background": "#F1F5F9",
-      "color": "#0F172A",
-      "theme": "#0EA5E9",
-      "accent": "#38BDF8"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["japan", "fast", "travel", "aerodynamic", "silver", "blue"]
-  },
-  {
-    "id": "fm-stock-ticker",
-    "name": "Stock Ticker",
-    "colors": {
-      "background": "#022C22",
-      "color": "#ECFDF5",
-      "theme": "#10B981",
-      "accent": "#34D399"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["finance", "market", "up", "profit", "trade", "numbers"]
-  },
-  {
-    "id": "fm-gym-floor",
-    "name": "Gym Floor",
-    "colors": {
-      "background": "#171717",
-      "color": "#FAFAFA",
-      "theme": "#F59E0B",
-      "accent": "#FBBF24"
-    },
-    "rating": 4,
-    "vibe": "Focused Momentum",
-    "keywords": ["sport", "sweat", "hard", "rubber", "yellow", "lines"]
-  },
-  {
-    "id": "fm-neon-sign",
-    "name": "Neon Sign",
-    "colors": {
-      "background": "#09090B",
-      "color": "#FCE7F3",
-      "theme": "#EC4899",
-      "accent": "#F472B6"
-    },
-    "rating": 4,
-    "vibe": "Focused Momentum",
-    "keywords": ["open", "night", "glow", "pink", "bright", "attract"]
-  },
-  {
-    "id": "fm-turbo-mode",
-    "name": "Turbo Mode",
-    "colors": {
-      "background": "#1E1B4B",
-      "color": "#FFFFFF",
-      "theme": "#EF4444",
-      "accent": "#F87171"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["boost", "overclock", "power", "red-blue", "extreme", "push"]
-  },
-  {
-    "id": "fm-clear-path",
-    "name": "Clear Path",
-    "colors": {
-      "background": "#F0F9FF",
-      "color": "#0369A1",
-      "theme": "#0EA5E9",
-      "accent": "#7DD3FC"
-    },
-    "rating": 5,
-    "vibe": "Focused Momentum",
-    "keywords": ["sky", "open", "no-obstacle", "free", "forward", "blue"]
-  },
-  {
-    "id": "fm-arrow-head",
-    "name": "Arrow Head",
-    "colors": {
-      "background": "#1C1917",
-      "color": "#E7E5E4",
-      "theme": "#57534E",
-      "accent": "#D6D3D1"
-    },
-    "rating": 3,
-    "vibe": "Focused Momentum",
-    "keywords": ["point", "sharp", "direction", "stone", "primitive", "hunt"]
-  },
-  {
-    "id": "qr-acid-rain",
-    "name": "Acid Rain",
-    "colors": {
-      "background": "#1A2E05",
-      "color": "#ECFCCB",
-      "theme": "#84CC16",
-      "accent": "#BEF264"
-    },
-    "rating": 3,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["toxic", "green", "punk", "future", "danger", "melt"]
-  },
-  {
-    "id": "qr-spray-paint",
-    "name": "Spray Paint",
-    "colors": {
-      "background": "#18181B",
-      "color": "#F0F9FF",
-      "theme": "#06B6D4",
-      "accent": "#F472B6"
-    },
-    "rating": 5,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["graffiti", "street", "art", "cyan-pink", "messy", "bold"]
-  },
-  {
-    "id": "qr-broken-screen",
-    "name": "Broken Screen",
-    "colors": {
-      "background": "#000000",
-      "color": "#F3F4F6",
-      "theme": "#262626",
-      "accent": "#FFFFFF"
-    },
-    "rating": 4,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["glitch", "crack", "destroy", "dark", "error", "noise"]
-  },
-  {
-    "id": "qr-concrete-flower",
-    "name": "Concrete Flower",
-    "colors": {
-      "background": "#E5E5E5",
-      "color": "#171717",
-      "theme": "#F43F5E",
-      "accent": "#FB7185"
-    },
-    "rating": 5,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["urban", "nature", "hope", "rose", "grey", "contrast"]
-  },
-  {
-    "id": "qr-rusty-nail",
-    "name": "Rusty Nail",
-    "colors": {
-      "background": "#292524",
-      "color": "#FCA5A5",
-      "theme": "#B91C1C",
-      "accent": "#7F1D1D"
-    },
-    "rating": 3,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["old", "dangerous", "metal", "decay", "orange-red", "rough"]
-  },
-  {
-    "id": "qr-vinyl-scratch",
-    "name": "Vinyl Scratch",
-    "colors": {
-      "background": "#111827",
-      "color": "#E5E7EB",
-      "theme": "#4B5563",
-      "accent": "#9CA3AF"
-    },
-    "rating": 4,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["music", "record", "dj", "sound", "loop", "dark"]
-  },
-  {
-    "id": "qr-faded-denim",
-    "name": "Faded Denim",
-    "colors": {
-      "background": "#F1F5F9",
-      "color": "#1E3A8A",
-      "theme": "#60A5FA",
-      "accent": "#93C5FD"
-    },
-    "rating": 5,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["jeans", "worn", "blue", "casual", "rip", "texture"]
-  },
-  {
-    "id": "qr-midnight-skate",
-    "name": "Midnight Skate",
-    "colors": {
-      "background": "#0F172A",
-      "color": "#C084FC",
-      "theme": "#7E22CE",
-      "accent": "#A855F7"
-    },
-    "rating": 5,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["board", "park", "night", "purple", "youth", "ride"]
-  },
-  {
-    "id": "qr-hacker-green",
-    "name": "Hacker Green",
-    "colors": {
-      "background": "#052E16",
-      "color": "#4ADE80",
-      "theme": "#22C55E",
-      "accent": "#86EFAC"
-    },
-    "rating": 4,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["matrix", "code", "terminal", "dark", "glow", "cyber"]
-  },
-  {
-    "id": "qr-burnt-ticket",
-    "name": "Burnt Ticket",
-    "colors": {
-      "background": "#1C1917",
-      "color": "#FDBA74",
-      "theme": "#EA580C",
-      "accent": "#F97316"
-    },
-    "rating": 4,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["entry", "fire", "used", "orange", "ash", "event"]
-  },
-  {
-    "id": "qr-static-fuzz",
-    "name": "Static Fuzz",
-    "colors": {
-      "background": "#FAFAFA",
-      "color": "#171717",
-      "theme": "#A3A3A3",
-      "accent": "#000000"
-    },
-    "rating": 3,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["tv", "noise", "channel", "broken", "grey", "pattern"]
-  },
-  {
-    "id": "qr-oil-slick",
-    "name": "Oil Slick",
-    "colors": {
-      "background": "#020617",
-      "color": "#E2E8F0",
-      "theme": "#4F46E5",
-      "accent": "#D946EF"
-    },
-    "rating": 5,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["rainbow", "pollution", "street", "puddle", "dark", "color"]
-  },
-  {
-    "id": "qr-ripped-poster",
-    "name": "Ripped Poster",
-    "colors": {
-      "background": "#FEE2E2",
-      "color": "#991B1B",
-      "theme": "#EF4444",
-      "accent": "#F87171"
-    },
-    "rating": 4,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["wall", "paper", "shred", "red", "message", "street"]
-  },
-  {
-    "id": "qr-underground",
-    "name": "Underground",
-    "colors": {
-      "background": "#3F3F46",
-      "color": "#F4F4F5",
-      "theme": "#71717A",
-      "accent": "#A1A1AA"
-    },
-    "rating": 3,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["subway", "tunnel", "dark", "concrete", "hidden", "metro"]
-  },
-  {
-    "id": "qr-no-signal",
-    "name": "No Signal",
-    "colors": {
-      "background": "#000000",
-      "color": "#FFFFFF",
-      "theme": "#3B82F6",
-      "accent": "#EF4444"
-    },
-    "rating": 4,
-    "vibe": "Quiet Rebellion",
-    "keywords": ["tv", "color-bars", "test", "broadcast", "offline", "stop"]
-  }
-]
+  "tones": [
+    {
+      "id": "min-quiet-white",
+      "name": "Quiet White",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#111111",
+        "theme": "#F5F5F7",
+        "accent": "#E1E1E1"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["silence", "pure", "essential", "bright", "airy"]
+    },
+    {
+      "id": "min-soft-graphite",
+      "name": "Soft Graphite",
+      "colors": {
+        "background": "#FAFAFA",
+        "color": "#2D2D2D",
+        "theme": "#4A4A4A",
+        "accent": "#757575"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["contrast", "pencil", "sketch", "texture", "defined"]
+    },
+    {
+      "id": "min-paper-ash",
+      "name": "Paper Ash",
+      "colors": {
+        "background": "#F0F2F5",
+        "color": "#1C1C1E",
+        "theme": "#B0B3B8",
+        "accent": "#8E8E93"
+      },
+      "rating": 4,
+      "vibe": "Minimal",
+      "keywords": ["matte", "tactile", "subtle", "flat", "composed"]
+    },
+    {
+      "id": "min-subtle-ink",
+      "name": "Subtle Ink",
+      "colors": {
+        "background": "#FDFFFC",
+        "color": "#000000",
+        "theme": "#333333",
+        "accent": "#2B2B2B"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["sharp", "precise", "monochrome", "classic", "dark"]
+    },
+    {
+      "id": "min-clean-slate",
+      "name": "Clean Slate",
+      "colors": {
+        "background": "#F7F9FA",
+        "color": "#243447",
+        "theme": "#657786",
+        "accent": "#AAB8C2"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["fresh", "start", "cool", "neutral", "organized"]
+    },
+    {
+      "id": "min-bare-concrete",
+      "name": "Bare Concrete",
+      "colors": {
+        "background": "#E8E8E8",
+        "color": "#1A1A1A",
+        "theme": "#8C8C8C",
+        "accent": "#595959"
+      },
+      "rating": 4,
+      "vibe": "Minimal",
+      "keywords": ["industrial", "raw", "urban", "strong", "grey"]
+    },
+    {
+      "id": "min-muted-pearl",
+      "name": "Muted Pearl",
+      "colors": {
+        "background": "#FCFBF9",
+        "color": "#2E2C2A",
+        "theme": "#E6E2DD",
+        "accent": "#D4CFC9"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["warm", "elegant", "soft", "luxury", "smooth"]
+    },
+    {
+      "id": "min-still-fog",
+      "name": "Still Fog",
+      "colors": {
+        "background": "#F3F4F6",
+        "color": "#374151",
+        "theme": "#9CA3AF",
+        "accent": "#D1D5DB"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["haze", "calm", "faded", "misty", "undefined"]
+    },
+    {
+      "id": "min-low-noise",
+      "name": "Low Noise",
+      "colors": {
+        "background": "#F5F5F5",
+        "color": "#121212",
+        "theme": "#212121",
+        "accent": "#424242"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["focus", "hushed", "technical", "modern", "flat"]
+    },
+    {
+      "id": "min-calm-ivory",
+      "name": "Calm Ivory",
+      "colors": {
+        "background": "#FFFFF0",
+        "color": "#2B2D2F",
+        "theme": "#F0EAD6",
+        "accent": "#CDC8B1"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["classic", "warmth", "heritage", "simple", "inviting"]
+    },
+    {
+      "id": "min-neutral-space",
+      "name": "Neutral Space",
+      "colors": {
+        "background": "#EFEFEF",
+        "color": "#222222",
+        "theme": "#999999",
+        "accent": "#BBBBBB"
+      },
+      "rating": 4,
+      "vibe": "Minimal",
+      "keywords": ["void", "open", "balance", "unbiased", "functional"]
+    },
+    {
+      "id": "min-gentle-shadow",
+      "name": "Gentle Shadow",
+      "colors": {
+        "background": "#F8F8F8",
+        "color": "#0F0F0F",
+        "theme": "#E0E0E0",
+        "accent": "#CCCCCC"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["depth", "shade", "layer", "soft", "dim"]
+    },
+    {
+      "id": "min-pure-linen",
+      "name": "Pure Linen",
+      "colors": {
+        "background": "#FAF9F6",
+        "color": "#3D3D3D",
+        "theme": "#EAE6DF",
+        "accent": "#C4BFB6"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["organic", "fiber", "natural", "light", "breathable"]
+    },
+    {
+      "id": "min-silent-gray",
+      "name": "Silent Gray",
+      "colors": {
+        "background": "#F2F2F2",
+        "color": "#262626",
+        "theme": "#7F7F7F",
+        "accent": "#A6A6A6"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["mute", "static", "stealth", "sleek", "uniform"]
+    },
+    {
+      "id": "min-soft-balance",
+      "name": "Soft Balance",
+      "colors": {
+        "background": "#FBFCFD",
+        "color": "#1A1B1E",
+        "theme": "#CED4DA",
+        "accent": "#ADB5BD"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["equal", "center", "zen", "harmonious", "stable"]
+    },
+    {
+      "id": "min-minimal-flux",
+      "name": "Minimal Flux",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#000000",
+        "theme": "#F0F0F0",
+        "accent": "#333333"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["change", "flow", "dynamic", "essence", "core"]
+    },
+    {
+      "id": "min-blank-canvas",
+      "name": "Blank Canvas",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#333333",
+        "theme": "#EDEDED",
+        "accent": "#DCDCDC"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["art", "start", "create", "white", "possibility"]
+    },
+    {
+      "id": "min-pale-structure",
+      "name": "Pale Structure",
+      "colors": {
+        "background": "#F4F7F6",
+        "color": "#2C3E50",
+        "theme": "#D2D7D3",
+        "accent": "#BDC3C7"
+      },
+      "rating": 4,
+      "vibe": "Minimal",
+      "keywords": ["grid", "form", "architect", "lines", "blueprint"]
+    },
+    {
+      "id": "min-light-discipline",
+      "name": "Light Discipline",
+      "colors": {
+        "background": "#FAFAFA",
+        "color": "#111111",
+        "theme": "#DDDDDD",
+        "accent": "#AAAAAA"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["order", "rigid", "strict", "clean", "system"]
+    },
+    {
+      "id": "min-clean-horizon",
+      "name": "Clean Horizon",
+      "colors": {
+        "background": "#F0F8FF",
+        "color": "#0A2463",
+        "theme": "#DCEEFB",
+        "accent": "#B6D6F2"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["sky", "limitless", "view", "blue", "expanse"]
+    },
+    {
+      "id": "min-thin-contrast",
+      "name": "Thin Contrast",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#222222",
+        "theme": "#FAFAFA",
+        "accent": "#111111"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["edge", "border", "line", "distinct", "sharp"]
+    },
+    {
+      "id": "min-calm-studio",
+      "name": "Calm Studio",
+      "colors": {
+        "background": "#FDFDFD",
+        "color": "#363636",
+        "theme": "#E8E8E8",
+        "accent": "#C4C4C4"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["work", "place", "create", "gallery", "display"]
+    },
+    {
+      "id": "min-simple-matter",
+      "name": "Simple Matter",
+      "colors": {
+        "background": "#F1F1F1",
+        "color": "#191919",
+        "theme": "#D9D9D9",
+        "accent": "#BFBFBF"
+      },
+      "rating": 4,
+      "vibe": "Minimal",
+      "keywords": ["physics", "basic", "element", "solid", "exist"]
+    },
+    {
+      "id": "min-dry-cement",
+      "name": "Dry Cement",
+      "colors": {
+        "background": "#E6E6E6",
+        "color": "#2B2B2B",
+        "theme": "#999999",
+        "accent": "#737373"
+      },
+      "rating": 4,
+      "vibe": "Minimal",
+      "keywords": ["hard", "street", "foundation", "neutral", "durable"]
+    },
+    {
+      "id": "min-white-logic",
+      "name": "White Logic",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#000000",
+        "theme": "#F2F2F2",
+        "accent": "#E6E6E6"
+      },
+      "rating": 5,
+      "vibe": "Minimal",
+      "keywords": ["reason", "math", "code", "binary", "clear"]
+    },
+    {
+      "id": "mod-urban-grid",
+      "name": "Urban Grid",
+      "colors": {
+        "background": "#1A1A1D",
+        "color": "#FFFFFF",
+        "theme": "#4E4E50",
+        "accent": "#6F2232"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["city", "structure", "night", "neon", "lines"]
+    },
+    {
+      "id": "mod-signal-blue",
+      "name": "Signal Blue",
+      "colors": {
+        "background": "#F0F4FF",
+        "color": "#050A30",
+        "theme": "#0000FF",
+        "accent": "#4D4DFF"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["electric", "vibrant", "communication", "active", "bold"]
+    },
+    {
+      "id": "mod-digital-clay",
+      "name": "Digital Clay",
+      "colors": {
+        "background": "#F7F5F2",
+        "color": "#2C2C2C",
+        "theme": "#B87358",
+        "accent": "#D69F8B"
+      },
+      "rating": 4,
+      "vibe": "Modern",
+      "keywords": ["organic", "warm", "sculpted", "matte", "earthy"]
+    },
+    {
+      "id": "mod-smooth-carbon",
+      "name": "Smooth Carbon",
+      "colors": {
+        "background": "#121212",
+        "color": "#E0E0E0",
+        "theme": "#2C2C2C",
+        "accent": "#424242"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["sleek", "performance", "automotive", "dark", "fast"]
+    },
+    {
+      "id": "mod-fresh-metric",
+      "name": "Fresh Metric",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#004D40",
+        "theme": "#009688",
+        "accent": "#80CBC4"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["data", "clean", "teal", "precise", "growth"]
+    },
+    {
+      "id": "mod-smart-slate",
+      "name": "Smart Slate",
+      "colors": {
+        "background": "#F1F5F9",
+        "color": "#334155",
+        "theme": "#64748B",
+        "accent": "#94A3B8"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["professional", "cool", "balanced", "stone", "corporate"]
+    },
+    {
+      "id": "mod-modern-pulse",
+      "name": "Modern Pulse",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#111111",
+        "theme": "#FF0055",
+        "accent": "#FF5588"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["heartbeat", "alive", "pop", "energy", "trend"]
+    },
+    {
+      "id": "mod-clean-interface",
+      "name": "Clean Interface",
+      "colors": {
+        "background": "#FAFAFA",
+        "color": "#212121",
+        "theme": "#2196F3",
+        "accent": "#BBDEFB"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["ui", "user", "software", "standard", "accessible"]
+    },
+    {
+      "id": "mod-cool-system",
+      "name": "Cool System",
+      "colors": {
+        "background": "#E3F2FD",
+        "color": "#0D47A1",
+        "theme": "#1976D2",
+        "accent": "#64B5F6"
+      },
+      "rating": 4,
+      "vibe": "Modern",
+      "keywords": ["temperature", "flow", "liquid", "ice", "refresh"]
+    },
+    {
+      "id": "mod-polished-chrome",
+      "name": "Polished Chrome",
+      "colors": {
+        "background": "#F5F5F5",
+        "color": "#000000",
+        "theme": "#C0C0C0",
+        "accent": "#E0E0E0"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["reflective", "metal", "shine", "luxury", "mirror"]
+    },
+    {
+      "id": "mod-neo-balance",
+      "name": "Neo Balance",
+      "colors": {
+        "background": "#F9FAFB",
+        "color": "#1F2937",
+        "theme": "#10B981",
+        "accent": "#6EE7B7"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["eco", "green", "future", "harmony", "sustainable"]
+    },
+    {
+      "id": "mod-soft-tech",
+      "name": "Soft Tech",
+      "colors": {
+        "background": "#FFF5F7",
+        "color": "#5D2E46",
+        "theme": "#DB7093",
+        "accent": "#FFC0CB"
+      },
+      "rating": 4,
+      "vibe": "Modern",
+      "keywords": ["approachable", "human", "friendly", "pink", "device"]
+    },
+    {
+      "id": "mod-open-layout",
+      "name": "Open Layout",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#263238",
+        "theme": "#ECEFF1",
+        "accent": "#CFD8DC"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["space", "architecture", "plan", "wide", "canvas"]
+    },
+    {
+      "id": "mod-bright-logic",
+      "name": "Bright Logic",
+      "colors": {
+        "background": "#FFFDE7",
+        "color": "#3E2723",
+        "theme": "#FBC02D",
+        "accent": "#FFF59D"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["idea", "smart", "bulb", "yellow", "innovation"]
+    },
+    {
+      "id": "mod-modern-air",
+      "name": "Modern Air",
+      "colors": {
+        "background": "#F0F8FF",
+        "color": "#2F4F4F",
+        "theme": "#87CEEB",
+        "accent": "#B0E0E6"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["breeze", "light", "sky", "float", "cloud"]
+    },
+    {
+      "id": "mod-clear-signal",
+      "name": "Clear Signal",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#000000",
+        "theme": "#6200EA",
+        "accent": "#B388FF"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["transmit", "purple", "digital", "high-res", "sharp"]
+    },
+    {
+      "id": "mod-smart-neutral",
+      "name": "Smart Neutral",
+      "colors": {
+        "background": "#F5F5F0",
+        "color": "#3E3E3A",
+        "theme": "#8D8D8A",
+        "accent": "#D1D1CE"
+      },
+      "rating": 4,
+      "vibe": "Modern",
+      "keywords": ["beige", "calm", "office", "foundation", "base"]
+    },
+    {
+      "id": "mod-fluid-axis",
+      "name": "Fluid Axis",
+      "colors": {
+        "background": "#E0F7FA",
+        "color": "#006064",
+        "theme": "#00BCD4",
+        "accent": "#4DD0E1"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["movement", "cyan", "stream", "direction", "pivot"]
+    },
+    {
+      "id": "mod-sharp-ui",
+      "name": "Sharp UI",
+      "colors": {
+        "background": "#212121",
+        "color": "#FAFAFA",
+        "theme": "#FF9800",
+        "accent": "#FFCC80"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["dark-mode", "contrast", "orange", "action", "button"]
+    },
+    {
+      "id": "mod-current-form",
+      "name": "Current Form",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#2C3E50",
+        "theme": "#8E44AD",
+        "accent": "#D2B4DE"
+      },
+      "rating": 4,
+      "vibe": "Modern",
+      "keywords": ["shape", "now", "design", "violet", "trend"]
+    },
+    {
+      "id": "mod-metric-flow",
+      "name": "Metric Flow",
+      "colors": {
+        "background": "#E8F5E9",
+        "color": "#1B5E20",
+        "theme": "#4CAF50",
+        "accent": "#A5D6A7"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["analytics", "chart", "green", "upward", "success"]
+    },
+    {
+      "id": "mod-modern-craft",
+      "name": "Modern Craft",
+      "colors": {
+        "background": "#FFF8E1",
+        "color": "#3E2723",
+        "theme": "#795548",
+        "accent": "#D7CCC8"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["handmade", "authentic", "coffee", "wood", "detail"]
+    },
+    {
+      "id": "mod-urban-light",
+      "name": "Urban Light",
+      "colors": {
+        "background": "#FDF6E3",
+        "color": "#002B36",
+        "theme": "#B58900",
+        "accent": "#EEE8D5"
+      },
+      "rating": 4,
+      "vibe": "Modern",
+      "keywords": ["solarized", "coding", "warm", "lamp", "desk"]
+    },
+    {
+      "id": "mod-clear-path",
+      "name": "Clear Path",
+      "colors": {
+        "background": "#FAFAFA",
+        "color": "#000000",
+        "theme": "#607D8B",
+        "accent": "#CFD8DC"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["guide", "map", "navigation", "blue-grey", "direct"]
+    },
+    {
+      "id": "mod-active-frame",
+      "name": "Active Frame",
+      "colors": {
+        "background": "#263238",
+        "color": "#FFFFFF",
+        "theme": "#FF5722",
+        "accent": "#FFAB91"
+      },
+      "rating": 5,
+      "vibe": "Modern",
+      "keywords": ["border", "focus", "alert", "deep-orange", "window"]
+    },
+    {
+      "id": "ret-sunset-arcade",
+      "name": "Sunset Arcade",
+      "colors": {
+        "background": "#2C003E",
+        "color": "#FFFFFF",
+        "theme": "#FF2A6D",
+        "accent": "#05D9E8"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["synthwave", "purple", "neon", "cabinet", "joystick"]
+    },
+    {
+      "id": "ret-dusty-cassette",
+      "name": "Dusty Cassette",
+      "colors": {
+        "background": "#F5E6CA",
+        "color": "#3B2F2F",
+        "theme": "#D4A5A5",
+        "accent": "#8C7B75"
+      },
+      "rating": 4,
+      "vibe": "Retro",
+      "keywords": ["analog", "magnetic", "lo-fi", "brown", "plastic"]
+    },
+    {
+      "id": "ret-analog-pop",
+      "name": "Analog Pop",
+      "colors": {
+        "background": "#FFFFE0",
+        "color": "#111111",
+        "theme": "#FF6B6B",
+        "accent": "#4ECDC4"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["memphis", "shapes", "bold", "fun", "90s"]
+    },
+    {
+      "id": "ret-roller-disco",
+      "name": "Roller Disco",
+      "colors": {
+        "background": "#1A1A2E",
+        "color": "#E94560",
+        "theme": "#0F3460",
+        "accent": "#F7B801"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["skate", "lights", "boogie", "gold", "night"]
+    },
+    {
+      "id": "ret-pixel-soda",
+      "name": "Pixel Soda",
+      "colors": {
+        "background": "#FFEEEE",
+        "color": "#333333",
+        "theme": "#FF8C94",
+        "accent": "#A8E6CF"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["8-bit", "refreshing", "pastel", "game", "sweet"]
+    },
+    {
+      "id": "ret-old-neon",
+      "name": "Old Neon",
+      "colors": {
+        "background": "#0D0D0D",
+        "color": "#FFFFFF",
+        "theme": "#FF00FF",
+        "accent": "#00FF00"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["sign", "glow", "buzz", "bar", "dark"]
+    },
+    {
+      "id": "ret-tape-deck",
+      "name": "Tape Deck",
+      "colors": {
+        "background": "#333333",
+        "color": "#E0E0E0",
+        "theme": "#FF9900",
+        "accent": "#555555"
+      },
+      "rating": 4,
+      "vibe": "Retro",
+      "keywords": ["audio", "player", "mechanical", "buttons", "stereo"]
+    },
+    {
+      "id": "ret-faded-poster",
+      "name": "Faded Poster",
+      "colors": {
+        "background": "#FFF5EE",
+        "color": "#4A4A4A",
+        "theme": "#F4A460",
+        "accent": "#87CEEB"
+      },
+      "rating": 4,
+      "vibe": "Retro",
+      "keywords": ["sun-bleached", "paper", "vintage", "wall", "memory"]
+    },
+    {
+      "id": "ret-weekend-tv",
+      "name": "Weekend TV",
+      "colors": {
+        "background": "#E0E0E0",
+        "color": "#222222",
+        "theme": "#4169E1",
+        "accent": "#FFD700"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["broadcast", "static", "channel", "morning", "tube"]
+    },
+    {
+      "id": "ret-retro-wave",
+      "name": "Retro Wave",
+      "colors": {
+        "background": "#140021",
+        "color": "#FFFFFF",
+        "theme": "#9400D3",
+        "accent": "#FF1493"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["grid", "cyber", "drive", "sunset", "electronic"]
+    },
+    {
+      "id": "ret-vinyl-punch",
+      "name": "Vinyl Punch",
+      "colors": {
+        "background": "#1C1C1C",
+        "color": "#F0F0F0",
+        "theme": "#E50914",
+        "accent": "#333333"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["record", "music", "groove", "spin", "album"]
+    },
+    {
+      "id": "ret-electric-peach",
+      "name": "Electric Peach",
+      "colors": {
+        "background": "#222831",
+        "color": "#EEEEEE",
+        "theme": "#FF5733",
+        "accent": "#FFC300"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["fruit", "charged", "bright", "gradient", "zest"]
+    },
+    {
+      "id": "ret-bubble-gum-crt",
+      "name": "Bubble Gum CRT",
+      "colors": {
+        "background": "#FFC0CB",
+        "color": "#2F2F2F",
+        "theme": "#FF69B4",
+        "accent": "#87CEFA"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["pop", "screen", "pink", "scanline", "monitor"]
+    },
+    {
+      "id": "ret-laser-grid",
+      "name": "Laser Grid",
+      "colors": {
+        "background": "#000000",
+        "color": "#00FF41",
+        "theme": "#003B00",
+        "accent": "#008F11"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["matrix", "hacker", "code", "virtual", "lines"]
+    },
+    {
+      "id": "ret-mall-lights",
+      "name": "Mall Lights",
+      "colors": {
+        "background": "#FDF5E6",
+        "color": "#2E2E2E",
+        "theme": "#FF7F50",
+        "accent": "#20B2AA"
+      },
+      "rating": 4,
+      "vibe": "Retro",
+      "keywords": ["shopping", "atrium", "glass", "tropic", "indoor"]
+    },
+    {
+      "id": "ret-funk-circuit",
+      "name": "Funk Circuit",
+      "colors": {
+        "background": "#3E2723",
+        "color": "#FFF8E1",
+        "theme": "#FF6F00",
+        "accent": "#8D6E63"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["70s", "groove", "orange", "pattern", "dance"]
+    },
+    {
+      "id": "ret-soft-arcade",
+      "name": "Soft Arcade",
+      "colors": {
+        "background": "#F3E5F5",
+        "color": "#4A148C",
+        "theme": "#AB47BC",
+        "accent": "#CE93D8"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["token", "prize", "purple", "kid", "game-room"]
+    },
+    {
+      "id": "ret-static-pop",
+      "name": "Static Pop",
+      "colors": {
+        "background": "#FAFAFA",
+        "color": "#121212",
+        "theme": "#6200EA",
+        "accent": "#00E5FF"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["noise", "glitch", "white", "signal", "disrupt"]
+    },
+    {
+      "id": "ret-analog-dream",
+      "name": "Analog Dream",
+      "colors": {
+        "background": "#E6E6FA",
+        "color": "#2C3E50",
+        "theme": "#9370DB",
+        "accent": "#B0C4DE"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["sleep", "cloud", "vhs", "soft", "surreal"]
+    },
+    {
+      "id": "ret-saturday-cartoon",
+      "name": "Saturday Cartoon",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#000000",
+        "theme": "#FFCC00",
+        "accent": "#FF0000"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["animation", "primary", "hero", "fun", "action"]
+    },
+    {
+      "id": "ret-retro-mint",
+      "name": "Retro Mint",
+      "colors": {
+        "background": "#E0F2F1",
+        "color": "#004D40",
+        "theme": "#26A69A",
+        "accent": "#80CBC4"
+      },
+      "rating": 4,
+      "vibe": "Retro",
+      "keywords": ["diner", "shake", "cool", "vintage", "fresh"]
+    },
+    {
+      "id": "ret-cosmic-roller",
+      "name": "Cosmic Roller",
+      "colors": {
+        "background": "#191970",
+        "color": "#E6E6FA",
+        "theme": "#9932CC",
+        "accent": "#DA70D6"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["galaxy", "rink", "star", "midnight", "purple"]
+    },
+    {
+      "id": "ret-past-signal",
+      "name": "Past Signal",
+      "colors": {
+        "background": "#3C3C3C",
+        "color": "#DCDCDC",
+        "theme": "#808000",
+        "accent": "#556B2F"
+      },
+      "rating": 4,
+      "vibe": "Retro",
+      "keywords": ["military", "radio", "history", "green", "transmission"]
+    },
+    {
+      "id": "ret-synth-pop",
+      "name": "Synth Pop",
+      "colors": {
+        "background": "#212121",
+        "color": "#FFFFFF",
+        "theme": "#E91E63",
+        "accent": "#03A9F4"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["keyboard", "sound", "80s", "hit", "beat"]
+    },
+    {
+      "id": "ret-playtime-glow",
+      "name": "Playtime Glow",
+      "colors": {
+        "background": "#FFFDE7",
+        "color": "#212121",
+        "theme": "#FFEB3B",
+        "accent": "#FF9800"
+      },
+      "rating": 5,
+      "vibe": "Retro",
+      "keywords": ["toy", "plastic", "fun", "sunny", "childhood"]
+    },
+    {
+      "id": "vin-old-library",
+      "name": "Old Library",
+      "colors": {
+        "background": "#2E1A1A",
+        "color": "#F5E6CA",
+        "theme": "#8B4513",
+        "accent": "#D2691E"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["books", "dust", "mahogany", "quiet", "study"]
+    },
+    {
+      "id": "vin-sepia-ink",
+      "name": "Sepia Ink",
+      "colors": {
+        "background": "#FDF5E6",
+        "color": "#4B3621",
+        "theme": "#704214",
+        "accent": "#A0522D"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["writing", "pen", "brown", "sketch", "classic"]
+    },
+    {
+      "id": "vin-antique-paper",
+      "name": "Antique Paper",
+      "colors": {
+        "background": "#F8E4C4",
+        "color": "#2F2F2F",
+        "theme": "#D2B48C",
+        "accent": "#8B7355"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["parchment", "aged", "texture", "yellow", "history"]
+    },
+    {
+      "id": "vin-worn-leather",
+      "name": "Worn Leather",
+      "colors": {
+        "background": "#3E2723",
+        "color": "#D7CCC8",
+        "theme": "#5D4037",
+        "accent": "#8D6E63"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["bound", "rugged", "armchair", "smell", "rich"]
+    },
+    {
+      "id": "vin-classic-cream",
+      "name": "Classic Cream",
+      "colors": {
+        "background": "#FFFDD0",
+        "color": "#333333",
+        "theme": "#F5F5DC",
+        "accent": "#C0C0C0"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["smooth", "light", "elegant", "neutral", "soft"]
+    },
+    {
+      "id": "vin-dust-and-brass",
+      "name": "Dust & Brass",
+      "colors": {
+        "background": "#4B4B4B",
+        "color": "#E6E6E6",
+        "theme": "#B5A642",
+        "accent": "#CD7F32"
+      },
+      "rating": 4,
+      "vibe": "Vintage",
+      "keywords": ["metal", "tarnish", "shiny", "object", "detail"]
+    },
+    {
+      "id": "vin-heritage-wood",
+      "name": "Heritage Wood",
+      "colors": {
+        "background": "#5C4033",
+        "color": "#F4E4BC",
+        "theme": "#8B5A2B",
+        "accent": "#CD853F"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["grain", "oak", "solid", "furniture", "warm"]
+    },
+    {
+      "id": "vin-quiet-brown",
+      "name": "Quiet Brown",
+      "colors": {
+        "background": "#A0522D",
+        "color": "#FFF5EE",
+        "theme": "#8B4513",
+        "accent": "#D2691E"
+      },
+      "rating": 4,
+      "vibe": "Vintage",
+      "keywords": ["earth", "calm", "simple", "base", "grounded"]
+    },
+    {
+      "id": "vin-aged-olive",
+      "name": "Aged Olive",
+      "colors": {
+        "background": "#556B2F",
+        "color": "#F0F0F0",
+        "theme": "#6B8E23",
+        "accent": "#808000"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["green", "drab", "nature", "faded", "garden"]
+    },
+    {
+      "id": "vin-timeless-tan",
+      "name": "Timeless Tan",
+      "colors": {
+        "background": "#D2B48C",
+        "color": "#2C2C2C",
+        "theme": "#C19A6B",
+        "accent": "#F4A460"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["sand", "coat", "classic", "neutral", "warm"]
+    },
+    {
+      "id": "vin-vintage-rose",
+      "name": "Vintage Rose",
+      "colors": {
+        "background": "#FFE4E1",
+        "color": "#4A2C2C",
+        "theme": "#BC8F8F",
+        "accent": "#D8BFD8"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["flower", "dry", "pink", "romance", "soft"]
+    },
+    {
+      "id": "vin-old-photograph",
+      "name": "Old Photograph",
+      "colors": {
+        "background": "#EEE8AA",
+        "color": "#2F2F2F",
+        "theme": "#BDB76B",
+        "accent": "#808080"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["memory", "black-white", "grain", "moment", "capture"]
+    },
+    {
+      "id": "vin-tea-stain",
+      "name": "Tea Stain",
+      "colors": {
+        "background": "#F0E68C",
+        "color": "#3E2723",
+        "theme": "#DAA520",
+        "accent": "#CD853F"
+      },
+      "rating": 4,
+      "vibe": "Vintage",
+      "keywords": ["spill", "dye", "yellow", "ring", "fabric"]
+    },
+    {
+      "id": "vin-muted-gold",
+      "name": "Muted Gold",
+      "colors": {
+        "background": "#CFB53B",
+        "color": "#1C1C1C",
+        "theme": "#B8860B",
+        "accent": "#FFD700"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["rich", "dull", "treasure", "frame", "leaf"]
+    },
+    {
+      "id": "vin-handwritten-note",
+      "name": "Handwritten Note",
+      "colors": {
+        "background": "#FFFAF0",
+        "color": "#000080",
+        "theme": "#708090",
+        "accent": "#4682B4"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["script", "letter", "ink", "personal", "message"]
+    },
+    {
+      "id": "vin-warm-linen",
+      "name": "Warm Linen",
+      "colors": {
+        "background": "#FAF0E6",
+        "color": "#5C4033",
+        "theme": "#E6E6FA",
+        "accent": "#D3D3D3"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["cloth", "textile", "clean", "home", "woven"]
+    },
+    {
+      "id": "vin-nostalgic-fog",
+      "name": "Nostalgic Fog",
+      "colors": {
+        "background": "#DCDCDC",
+        "color": "#2F4F4F",
+        "theme": "#778899",
+        "accent": "#B0C4DE"
+      },
+      "rating": 4,
+      "vibe": "Vintage",
+      "keywords": ["grey", "mist", "dream", "distant", "cool"]
+    },
+    {
+      "id": "vin-soft-patina",
+      "name": "Soft Patina",
+      "colors": {
+        "background": "#E0FFFF",
+        "color": "#2E8B57",
+        "theme": "#66CDAA",
+        "accent": "#8FBC8F"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["copper", "age", "green", "surface", "weathered"]
+    },
+    {
+      "id": "vin-gentle-tobacco",
+      "name": "Gentle Tobacco",
+      "colors": {
+        "background": "#D2691E",
+        "color": "#FFF8DC",
+        "theme": "#A0522D",
+        "accent": "#8B4513"
+      },
+      "rating": 4,
+      "vibe": "Vintage",
+      "keywords": ["smoke", "brown", "leaf", "dry", "aroma"]
+    },
+    {
+      "id": "vin-faded-ink",
+      "name": "Faded Ink",
+      "colors": {
+        "background": "#F5F5F5",
+        "color": "#36454F",
+        "theme": "#708090",
+        "accent": "#A9A9A9"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["blue", "grey", "washed", "written", "old"]
+    },
+    {
+      "id": "vin-rust-memory",
+      "name": "Rust Memory",
+      "colors": {
+        "background": "#8B0000",
+        "color": "#FFDAB9",
+        "theme": "#CD5C5C",
+        "accent": "#A52A2A"
+      },
+      "rating": 4,
+      "vibe": "Vintage",
+      "keywords": ["metal", "oxidized", "red", "decay", "strong"]
+    },
+    {
+      "id": "vin-candle-light",
+      "name": "Candle Light",
+      "colors": {
+        "background": "#2C2C2C",
+        "color": "#FFD700",
+        "theme": "#FFA500",
+        "accent": "#FF8C00"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["flame", "dark", "glow", "warmth", "evening"]
+    },
+    {
+      "id": "vin-old-canvas",
+      "name": "Old Canvas",
+      "colors": {
+        "background": "#F3E5AB",
+        "color": "#3D3D3D",
+        "theme": "#C2B280",
+        "accent": "#BDB76B"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["art", "painting", "fabric", "texture", "rough"]
+    },
+    {
+      "id": "vin-quiet-history",
+      "name": "Quiet History",
+      "colors": {
+        "background": "#483C32",
+        "color": "#D3D3D3",
+        "theme": "#696969",
+        "accent": "#808080"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["museum", "past", "silent", "stone", "preserved"]
+    },
+    {
+      "id": "vin-brownstone",
+      "name": "Brownstone",
+      "colors": {
+        "background": "#5D4037",
+        "color": "#FFE4C4",
+        "theme": "#8D6E63",
+        "accent": "#A1887F"
+      },
+      "rating": 5,
+      "vibe": "Vintage",
+      "keywords": ["building", "city", "brick", "warm", "home"]
+    },
+    {
+      "id": "fut-neon-horizon",
+      "name": "Neon Horizon",
+      "colors": {
+        "background": "#0B1026",
+        "color": "#FFFFFF",
+        "theme": "#4DEEEA",
+        "accent": "#74EE15"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["glow", "skyline", "future", "blue", "limitless"]
+    },
+    {
+      "id": "fut-synthetic-dawn",
+      "name": "Synthetic Dawn",
+      "colors": {
+        "background": "#1A1A2E",
+        "color": "#E94560",
+        "theme": "#16213E",
+        "accent": "#0F3460"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["sunrise", "artificial", "red", "awakening", "simulation"]
+    },
+    {
+      "id": "fut-chrome-signal",
+      "name": "Chrome Signal",
+      "colors": {
+        "background": "#2C3E50",
+        "color": "#ECF0F1",
+        "theme": "#BDC3C7",
+        "accent": "#3498DB"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["metal", "transmission", "shiny", "clean", "connect"]
+    },
+    {
+      "id": "fut-zero-gravity",
+      "name": "Zero Gravity",
+      "colors": {
+        "background": "#000000",
+        "color": "#FFFFFF",
+        "theme": "#2C2C2C",
+        "accent": "#555555"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["space", "weightless", "float", "void", "minimal"]
+    },
+    {
+      "id": "fut-cold-plasma",
+      "name": "Cold Plasma",
+      "colors": {
+        "background": "#F0F8FF",
+        "color": "#00008B",
+        "theme": "#87CEFA",
+        "accent": "#B0C4DE"
+      },
+      "rating": 4,
+      "vibe": "Futuristic",
+      "keywords": ["energy", "ice", "science", "blue", "matter"]
+    },
+    {
+      "id": "fut-hyper-light",
+      "name": "Hyper Light",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#000000",
+        "theme": "#E0E0E0",
+        "accent": "#00FFCC"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["speed", "bright", "travel", "beam", "fast"]
+    },
+    {
+      "id": "fut-quantum-mist",
+      "name": "Quantum Mist",
+      "colors": {
+        "background": "#1C1C1C",
+        "color": "#D3D3D3",
+        "theme": "#4B0082",
+        "accent": "#9370DB"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["physics", "cloud", "mystery", "purple", "particle"]
+    },
+    {
+      "id": "fut-digital-aurora",
+      "name": "Digital Aurora",
+      "colors": {
+        "background": "#000000",
+        "color": "#FFFFFF",
+        "theme": "#00FF00",
+        "accent": "#FF00FF"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["lights", "sky", "northern", "color", "wave"]
+    },
+    {
+      "id": "fut-neural-grid",
+      "name": "Neural Grid",
+      "colors": {
+        "background": "#111111",
+        "color": "#00FF00",
+        "theme": "#003300",
+        "accent": "#005500"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["brain", "network", "ai", "connect", "map"]
+    },
+    {
+      "id": "fut-liquid-metal",
+      "name": "Liquid Metal",
+      "colors": {
+        "background": "#708090",
+        "color": "#F0F8FF",
+        "theme": "#B0C4DE",
+        "accent": "#C0C0C0"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["fluid", "silver", "shape", "tech", "smooth"]
+    },
+    {
+      "id": "fut-future-white",
+      "name": "Future White",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#1A1A1A",
+        "theme": "#F5F5F5",
+        "accent": "#CCCCCC"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["clean", "lab", "sterile", "bright", "new"]
+    },
+    {
+      "id": "fut-pulse-circuit",
+      "name": "Pulse Circuit",
+      "colors": {
+        "background": "#000000",
+        "color": "#00FFFF",
+        "theme": "#008080",
+        "accent": "#20B2AA"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["beat", "electronic", "chip", "board", "flow"]
+    },
+    {
+      "id": "fut-ion-blue",
+      "name": "Ion Blue",
+      "colors": {
+        "background": "#000033",
+        "color": "#FFFFFF",
+        "theme": "#4169E1",
+        "accent": "#1E90FF"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["charged", "atom", "science", "deep", "cool"]
+    },
+    {
+      "id": "fut-holo-surface",
+      "name": "Holo Surface",
+      "colors": {
+        "background": "#F0FFFF",
+        "color": "#2F4F4F",
+        "theme": "#AFEEEE",
+        "accent": "#00CED1"
+      },
+      "rating": 4,
+      "vibe": "Futuristic",
+      "keywords": ["3d", "illusion", "light", "project", "plane"]
+    },
+    {
+      "id": "fut-photon-field",
+      "name": "Photon Field",
+      "colors": {
+        "background": "#FFFFE0",
+        "color": "#000000",
+        "theme": "#FFD700",
+        "accent": "#FFA500"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["light", "energy", "sun", "warm", "ray"]
+    },
+    {
+      "id": "fut-clean-void",
+      "name": "Clean Void",
+      "colors": {
+        "background": "#121212",
+        "color": "#E0E0E0",
+        "theme": "#1E1E1E",
+        "accent": "#333333"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["empty", "space", "dark", "simple", "null"]
+    },
+    {
+      "id": "fut-cyber-glass",
+      "name": "Cyber Glass",
+      "colors": {
+        "background": "#E0FFFF",
+        "color": "#000080",
+        "theme": "#87CEEB",
+        "accent": "#4682B4"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["transparent", "screen", "interface", "fragile", "clear"]
+    },
+    {
+      "id": "fut-next-form",
+      "name": "Next Form",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#333333",
+        "theme": "#663399",
+        "accent": "#BA55D3"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["evolution", "shape", "design", "purple", "step"]
+    },
+    {
+      "id": "fut-electric-silence",
+      "name": "Electric Silence",
+      "colors": {
+        "background": "#2F2F2F",
+        "color": "#F5F5F5",
+        "theme": "#7FFF00",
+        "accent": "#32CD32"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["quiet", "hum", "waiting", "potential", "green"]
+    },
+    {
+      "id": "fut-ai-dawn",
+      "name": "AI Dawn",
+      "colors": {
+        "background": "#FFF5EE",
+        "color": "#FF4500",
+        "theme": "#FF8C00",
+        "accent": "#FFA07A"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["intelligence", "rise", "machine", "warm", "start"]
+    },
+    {
+      "id": "fut-silver-vector",
+      "name": "Silver Vector",
+      "colors": {
+        "background": "#C0C0C0",
+        "color": "#000000",
+        "theme": "#A9A9A9",
+        "accent": "#808080"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["direction", "math", "line", "metallic", "point"]
+    },
+    {
+      "id": "fut-core-light",
+      "name": "Core Light",
+      "colors": {
+        "background": "#000000",
+        "color": "#FFFFFF",
+        "theme": "#00BFFF",
+        "accent": "#1E90FF"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["center", "source", "bright", "blue", "heart"]
+    },
+    {
+      "id": "fut-tech-mirage",
+      "name": "Tech Mirage",
+      "colors": {
+        "background": "#F5DEB3",
+        "color": "#8B4513",
+        "theme": "#D2691E",
+        "accent": "#CD853F"
+      },
+      "rating": 4,
+      "vibe": "Futuristic",
+      "keywords": ["desert", "vision", "heat", "fake", "shimmer"]
+    },
+    {
+      "id": "fut-cold-spectrum",
+      "name": "Cold Spectrum",
+      "colors": {
+        "background": "#E6E6FA",
+        "color": "#483D8B",
+        "theme": "#6A5ACD",
+        "accent": "#7B68EE"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["range", "color", "low-temp", "purple", "band"]
+    },
+    {
+      "id": "fut-forward-shift",
+      "name": "Forward Shift",
+      "colors": {
+        "background": "#F0FFF0",
+        "color": "#006400",
+        "theme": "#90EE90",
+        "accent": "#98FB98"
+      },
+      "rating": 5,
+      "vibe": "Futuristic",
+      "keywords": ["move", "progress", "green", "go", "arrow"]
+    },
+    {
+      "id": "cyb-night-terminal",
+      "name": "Night Terminal",
+      "colors": {
+        "background": "#0D0D0D",
+        "color": "#00FF00",
+        "theme": "#003300",
+        "accent": "#33FF33"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["code", "hacking", "screen", "dark", "green"]
+    },
+    {
+      "id": "cyb-neon-rain",
+      "name": "Neon Rain",
+      "colors": {
+        "background": "#050510",
+        "color": "#E0E0FF",
+        "theme": "#302060",
+        "accent": "#00E5FF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["wet", "city", "reflection", "blue", "storm"]
+    },
+    {
+      "id": "cyb-dark-alley",
+      "name": "Dark Alley",
+      "colors": {
+        "background": "#080808",
+        "color": "#888888",
+        "theme": "#222222",
+        "accent": "#FF003C"
+      },
+      "rating": 4,
+      "vibe": "Cyberpunk",
+      "keywords": ["danger", "shadow", "street", "hidden", "grit"]
+    },
+    {
+      "id": "cyb-voltage-pink",
+      "name": "Voltage Pink",
+      "colors": {
+        "background": "#1A0510",
+        "color": "#FFCCEE",
+        "theme": "#FF00AA",
+        "accent": "#FF55CC"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["shock", "bright", "femme", "power", "hot"]
+    },
+    {
+      "id": "cyb-signal-glitch",
+      "name": "Signal Glitch",
+      "colors": {
+        "background": "#121214",
+        "color": "#FAFAFA",
+        "theme": "#3F3F46",
+        "accent": "#00FF9D"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["noise", "error", "distorted", "tech", "break"]
+    },
+    {
+      "id": "cyb-midnight-tokyo",
+      "name": "Midnight Tokyo",
+      "colors": {
+        "background": "#0B0C15",
+        "color": "#FFFFFF",
+        "theme": "#5D2E8C",
+        "accent": "#F21B3F"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["urban", "lights", "crowd", "asia", "future"]
+    },
+    {
+      "id": "cyb-electric-crime",
+      "name": "Electric Crime",
+      "colors": {
+        "background": "#101010",
+        "color": "#FFFF00",
+        "theme": "#333300",
+        "accent": "#FFD700"
+      },
+      "rating": 4,
+      "vibe": "Cyberpunk",
+      "keywords": ["illegal", "yellow", "tape", "scene", "caution"]
+    },
+    {
+      "id": "cyb-laser-street",
+      "name": "Laser Street",
+      "colors": {
+        "background": "#000510",
+        "color": "#CCDDFF",
+        "theme": "#001133",
+        "accent": "#FF3366"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["beam", "road", "fast", "light", "path"]
+    },
+    {
+      "id": "cyb-hacked-neon",
+      "name": "Hacked Neon",
+      "colors": {
+        "background": "#000000",
+        "color": "#00FF00",
+        "theme": "#111111",
+        "accent": "#FF00FF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["override", "contrast", "intrusion", "binary", "glow"]
+    },
+    {
+      "id": "cyb-cyber-smog",
+      "name": "Cyber Smog",
+      "colors": {
+        "background": "#2B2B2B",
+        "color": "#D3D3D3",
+        "theme": "#555555",
+        "accent": "#800080"
+      },
+      "rating": 4,
+      "vibe": "Cyberpunk",
+      "keywords": ["pollution", "haze", "city", "grey", "thick"]
+    },
+    {
+      "id": "cyb-data-riot",
+      "name": "Data Riot",
+      "colors": {
+        "background": "#1F0000",
+        "color": "#FFEEEE",
+        "theme": "#800000",
+        "accent": "#FF4444"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["chaos", "overload", "red", "fight", "stream"]
+    },
+    {
+      "id": "cyb-purple-static",
+      "name": "Purple Static",
+      "colors": {
+        "background": "#150020",
+        "color": "#EEDDFF",
+        "theme": "#440066",
+        "accent": "#BB00FF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["interference", "violet", "fuzzy", "screen", "noise"]
+    },
+    {
+      "id": "cyb-chrome-night",
+      "name": "Chrome Night",
+      "colors": {
+        "background": "#050505",
+        "color": "#FFFFFF",
+        "theme": "#444444",
+        "accent": "#00FFFF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["reflection", "dark", "metal", "shiny", "cool"]
+    },
+    {
+      "id": "cyb-underground-grid",
+      "name": "Underground Grid",
+      "colors": {
+        "background": "#111111",
+        "color": "#FFA500",
+        "theme": "#332200",
+        "accent": "#FF8C00"
+      },
+      "rating": 4,
+      "vibe": "Cyberpunk",
+      "keywords": ["sewer", "hidden", "network", "orange", "subway"]
+    },
+    {
+      "id": "cyb-acid-city",
+      "name": "Acid City",
+      "colors": {
+        "background": "#0D110D",
+        "color": "#CCFFCC",
+        "theme": "#206020",
+        "accent": "#39FF14"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["burn", "green", "toxic", "rain", "corrode"]
+    },
+    {
+      "id": "cyb-synthetic-vice",
+      "name": "Synthetic Vice",
+      "colors": {
+        "background": "#1A001A",
+        "color": "#FFCCFF",
+        "theme": "#660066",
+        "accent": "#FF00CC"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["sin", "pleasure", "artificial", "pink", "club"]
+    },
+    {
+      "id": "cyb-neon-pulse",
+      "name": "Neon Pulse",
+      "colors": {
+        "background": "#000022",
+        "color": "#FFFFFF",
+        "theme": "#000088",
+        "accent": "#00FFFF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["rhythm", "beat", "light", "blue", "life"]
+    },
+    {
+      "id": "cyb-shadow-byte",
+      "name": "Shadow Byte",
+      "colors": {
+        "background": "#000000",
+        "color": "#666666",
+        "theme": "#1A1A1A",
+        "accent": "#444444"
+      },
+      "rating": 4,
+      "vibe": "Cyberpunk",
+      "keywords": ["stealth", "data", "dark", "hidden", "small"]
+    },
+    {
+      "id": "cyb-digital-dystopia",
+      "name": "Digital Dystopia",
+      "colors": {
+        "background": "#141414",
+        "color": "#D32F2F",
+        "theme": "#B71C1C",
+        "accent": "#FF5252"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["society", "collapse", "control", "fear", "red"]
+    },
+    {
+      "id": "cyb-pixel-riot",
+      "name": "Pixel Riot",
+      "colors": {
+        "background": "#222222",
+        "color": "#FFFF00",
+        "theme": "#FF00FF",
+        "accent": "#00FFFF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["clash", "color", "blocky", "screen", "fight"]
+    },
+    {
+      "id": "cyb-tech-noir",
+      "name": "Tech Noir",
+      "colors": {
+        "background": "#0F0F0F",
+        "color": "#E0E0E0",
+        "theme": "#333333",
+        "accent": "#4169E1"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["detective", "mystery", "rain", "shadow", "style"]
+    },
+    {
+      "id": "cyb-terminal-green",
+      "name": "Terminal Green",
+      "colors": {
+        "background": "#001100",
+        "color": "#00FF00",
+        "theme": "#004400",
+        "accent": "#00AA00"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["classic", "monitor", "command", "text", "phosphor"]
+    },
+    {
+      "id": "cyb-dark-voltage",
+      "name": "Dark Voltage",
+      "colors": {
+        "background": "#0A0A0A",
+        "color": "#F0F0F0",
+        "theme": "#333333",
+        "accent": "#7B1FA2"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["power", "surge", "black", "purple", "danger"]
+    },
+    {
+      "id": "cyb-urban-glitch",
+      "name": "Urban Glitch",
+      "colors": {
+        "background": "#1C1C1E",
+        "color": "#F2F2F7",
+        "theme": "#8E8E93",
+        "accent": "#FF3B30"
+      },
+      "rating": 4,
+      "vibe": "Cyberpunk",
+      "keywords": ["city", "broken", "stutter", "concrete", "error"]
+    },
+    {
+      "id": "cyb-neon-noise",
+      "name": "Neon Noise",
+      "colors": {
+        "background": "#100010",
+        "color": "#FF00FF",
+        "theme": "#440044",
+        "accent": "#00FFFF"
+      },
+      "rating": 5,
+      "vibe": "Cyberpunk",
+      "keywords": ["loud", "bright", "sound", "visual", "buzz"]
+    },
+    {
+      "id": "ear-forest-floor",
+      "name": "Forest Floor",
+      "colors": {
+        "background": "#2E3B28",
+        "color": "#F5F5DC",
+        "theme": "#556B2F",
+        "accent": "#8FBC8F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["nature", "green", "moss", "dark", "undergrowth"]
+    },
+    {
+      "id": "ear-dry-clay",
+      "name": "Dry Clay",
+      "colors": {
+        "background": "#E6D7C3",
+        "color": "#4A3B2A",
+        "theme": "#B08D6D",
+        "accent": "#D2691E"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["pottery", "earth", "red", "warm", "cracked"]
+    },
+    {
+      "id": "ear-warm-soil",
+      "name": "Warm Soil",
+      "colors": {
+        "background": "#5D4037",
+        "color": "#D7CCC8",
+        "theme": "#8D6E63",
+        "accent": "#A1887F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["dirt", "grow", "brown", "rich", "ground"]
+    },
+    {
+      "id": "ear-sage-dust",
+      "name": "Sage Dust",
+      "colors": {
+        "background": "#E0E8E3",
+        "color": "#2F4F4F",
+        "theme": "#8FBC8F",
+        "accent": "#556B2F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["herb", "green", "soft", "pale", "aroma"]
+    },
+    {
+      "id": "ear-moss-stone",
+      "name": "Moss Stone",
+      "colors": {
+        "background": "#4B5320",
+        "color": "#F0F0F0",
+        "theme": "#6B8E23",
+        "accent": "#808080"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["rock", "green", "damp", "texture", "old"]
+    },
+    {
+      "id": "ear-terracotta-calm",
+      "name": "Terracotta Calm",
+      "colors": {
+        "background": "#E2725B",
+        "color": "#FFF5EE",
+        "theme": "#CD5C5C",
+        "accent": "#FFA07A"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["pot", "orange", "clay", "warm", " mediterranean"]
+    },
+    {
+      "id": "ear-muted-olive",
+      "name": "Muted Olive",
+      "colors": {
+        "background": "#808000",
+        "color": "#FFFFF0",
+        "theme": "#6B8E23",
+        "accent": "#556B2F"
+      },
+      "rating": 4,
+      "vibe": "Earthy",
+      "keywords": ["green", "oil", "tree", "dull", "natural"]
+    },
+    {
+      "id": "ear-wood-grain",
+      "name": "Wood Grain",
+      "colors": {
+        "background": "#8B4513",
+        "color": "#FFE4C4",
+        "theme": "#A0522D",
+        "accent": "#D2691E"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["texture", "brown", "tree", "lines", "organic"]
+    },
+    {
+      "id": "ear-sunbaked",
+      "name": "Sunbaked",
+      "colors": {
+        "background": "#F4A460",
+        "color": "#3E2723",
+        "theme": "#D2691E",
+        "accent": "#FFD700"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["heat", "dry", "orange", "yellow", "desert"]
+    },
+    {
+      "id": "ear-organic-field",
+      "name": "Organic Field",
+      "colors": {
+        "background": "#F5F5DC",
+        "color": "#2E8B57",
+        "theme": "#6B8E23",
+        "accent": "#9ACD32"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["farm", "grow", "green", "open", "life"]
+    },
+    {
+      "id": "ear-quiet-earth",
+      "name": "Quiet Earth",
+      "colors": {
+        "background": "#3E2723",
+        "color": "#D7CCC8",
+        "theme": "#5D4037",
+        "accent": "#795548"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["silence", "ground", "brown", "still", "peace"]
+    },
+    {
+      "id": "ear-brown-meadow",
+      "name": "Brown Meadow",
+      "colors": {
+        "background": "#A52A2A",
+        "color": "#FFF8DC",
+        "theme": "#8B4513",
+        "accent": "#D2691E"
+      },
+      "rating": 4,
+      "vibe": "Earthy",
+      "keywords": ["grass", "fall", "dry", "nature", "rural"]
+    },
+    {
+      "id": "ear-soft-bark",
+      "name": "Soft Bark",
+      "colors": {
+        "background": "#8B5A2B",
+        "color": "#FFEBCD",
+        "theme": "#CD853F",
+        "accent": "#DEB887"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["tree", "touch", "brown", "cover", "rough"]
+    },
+    {
+      "id": "ear-river-rock",
+      "name": "River Rock",
+      "colors": {
+        "background": "#708090",
+        "color": "#F0F8FF",
+        "theme": "#778899",
+        "accent": "#B0C4DE"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["smooth", "water", "grey", "stone", "cool"]
+    },
+    {
+      "id": "ear-desert-shade",
+      "name": "Desert Shade",
+      "colors": {
+        "background": "#F4A460",
+        "color": "#2F2F2F",
+        "theme": "#D2691E",
+        "accent": "#A0522D"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["hot", "shadow", "orange", "sand", "dry"]
+    },
+    {
+      "id": "ear-natural-balance",
+      "name": "Natural Balance",
+      "colors": {
+        "background": "#FAF0E6",
+        "color": "#2F4F4F",
+        "theme": "#8FBC8F",
+        "accent": "#BC8F8F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["harmony", "zen", "neutral", "calm", "eco"]
+    },
+    {
+      "id": "ear-earth-breath",
+      "name": "Earth Breath",
+      "colors": {
+        "background": "#E0FFFF",
+        "color": "#2E8B57",
+        "theme": "#66CDAA",
+        "accent": "#20B2AA"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["air", "fresh", "life", "clean", "vital"]
+    },
+    {
+      "id": "ear-autumn-ground",
+      "name": "Autumn Ground",
+      "colors": {
+        "background": "#8B4513",
+        "color": "#FFD700",
+        "theme": "#D2691E",
+        "accent": "#CD853F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["leaf", "fall", "orange", "change", "season"]
+    },
+    {
+      "id": "ear-raw-nature",
+      "name": "Raw Nature",
+      "colors": {
+        "background": "#2F4F4F",
+        "color": "#F5F5DC",
+        "theme": "#556B2F",
+        "accent": "#8FBC8F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["untouched", "wild", "green", "pure", "forest"]
+    },
+    {
+      "id": "ear-gentle-mud",
+      "name": "Gentle Mud",
+      "colors": {
+        "background": "#6B4226",
+        "color": "#F0E68C",
+        "theme": "#8B5A2B",
+        "accent": "#A0522D"
+      },
+      "rating": 4,
+      "vibe": "Earthy",
+      "keywords": ["wet", "soft", "brown", "play", "soil"]
+    },
+    {
+      "id": "ear-green-dust",
+      "name": "Green Dust",
+      "colors": {
+        "background": "#F0FFF0",
+        "color": "#006400",
+        "theme": "#90EE90",
+        "accent": "#32CD32"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["pollen", "spring", "light", "air", "growth"]
+    },
+    {
+      "id": "ear-calm-valley",
+      "name": "Calm Valley",
+      "colors": {
+        "background": "#F5FFFA",
+        "color": "#2E8B57",
+        "theme": "#3CB371",
+        "accent": "#66CDAA"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["low", "peace", "green", "shelter", "view"]
+    },
+    {
+      "id": "ear-rooted-tone",
+      "name": "Rooted Tone",
+      "colors": {
+        "background": "#3E2723",
+        "color": "#D7CCC8",
+        "theme": "#795548",
+        "accent": "#A1887F"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["deep", "strong", "base", "anchor", "brown"]
+    },
+    {
+      "id": "ear-stone-leaf",
+      "name": "Stone Leaf",
+      "colors": {
+        "background": "#808080",
+        "color": "#F0FFF0",
+        "theme": "#696969",
+        "accent": "#98FB98"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["grey", "green", "contrast", "nature", "fossil"]
+    },
+    {
+      "id": "ear-grounded",
+      "name": "Grounded",
+      "colors": {
+        "background": "#5D4037",
+        "color": "#EFEBE9",
+        "theme": "#8D6E63",
+        "accent": "#BCAAA4"
+      },
+      "rating": 5,
+      "vibe": "Earthy",
+      "keywords": ["stable", "connected", "real", "down", "earth"]
+    },
+    {
+      "id": "lux-black-velvet",
+      "name": "Black Velvet",
+      "colors": {
+        "background": "#000000",
+        "color": "#FFD700",
+        "theme": "#1A1A1A",
+        "accent": "#B8860B"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["soft", "dark", "rich", "smooth", "expensive"]
+    },
+    {
+      "id": "lux-muted-gold",
+      "name": "Muted Gold",
+      "colors": {
+        "background": "#1C1C1C",
+        "color": "#DAA520",
+        "theme": "#B8860B",
+        "accent": "#F0E68C"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["wealth", "subtle", "shine", "metal", "class"]
+    },
+    {
+      "id": "lux-royal-ash",
+      "name": "Royal Ash",
+      "colors": {
+        "background": "#2F2F2F",
+        "color": "#E6E6E6",
+        "theme": "#708090",
+        "accent": "#C0C0C0"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["grey", "dignified", "dust", "noble", "calm"]
+    },
+    {
+      "id": "lux-deep-onyx",
+      "name": "Deep Onyx",
+      "colors": {
+        "background": "#0F0F0F",
+        "color": "#FFFFFF",
+        "theme": "#353839",
+        "accent": "#1C1C1C"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["stone", "black", "gem", "hard", "shiny"]
+    },
+    {
+      "id": "lux-soft-champagne",
+      "name": "Soft Champagne",
+      "colors": {
+        "background": "#FAF0E6",
+        "color": "#4A4A4A",
+        "theme": "#F5DEB3",
+        "accent": "#FFE4B5"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["drink", "celebrate", "light", "bubble", "pale"]
+    },
+    {
+      "id": "lux-elegant-night",
+      "name": "Elegant Night",
+      "colors": {
+        "background": "#191970",
+        "color": "#C0C0C0",
+        "theme": "#000080",
+        "accent": "#B0C4DE"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["evening", "formal", "blue", "dark", "star"]
+    },
+    {
+      "id": "lux-polished-marble",
+      "name": "Polished Marble",
+      "colors": {
+        "background": "#F8F8FF",
+        "color": "#111111",
+        "theme": "#DCDCDC",
+        "accent": "#708090"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["stone", "white", "vein", "cool", "classic"]
+    },
+    {
+      "id": "lux-silk-shadow",
+      "name": "Silk Shadow",
+      "colors": {
+        "background": "#36454F",
+        "color": "#F5F5F5",
+        "theme": "#536872",
+        "accent": "#708090"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["fabric", "smooth", "dark", "soft", "drape"]
+    },
+    {
+      "id": "lux-quiet-opulence",
+      "name": "Quiet Opulence",
+      "colors": {
+        "background": "#2C1B18",
+        "color": "#F4C2C2",
+        "theme": "#4E2A2A",
+        "accent": "#D2B48C"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["rich", "hidden", "private", "wealth", "comfort"]
+    },
+    {
+      "id": "lux-golden-hour",
+      "name": "Golden Hour",
+      "colors": {
+        "background": "#FFD700",
+        "color": "#000000",
+        "theme": "#DAA520",
+        "accent": "#FFA500"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["sun", "glow", "time", "photo", "warm"]
+    },
+    {
+      "id": "lux-dark-pearl",
+      "name": "Dark Pearl",
+      "colors": {
+        "background": "#2F4F4F",
+        "color": "#E0FFFF",
+        "theme": "#5F9EA0",
+        "accent": "#AFEEEE"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["sea", "gem", "lustre", "rare", "black"]
+    },
+    {
+      "id": "lux-velour-smoke",
+      "name": "Velour Smoke",
+      "colors": {
+        "background": "#4B0082",
+        "color": "#E6E6FA",
+        "theme": "#800080",
+        "accent": "#9370DB"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["purple", "fabric", "haze", "soft", "regal"]
+    },
+    {
+      "id": "lux-refined-slate",
+      "name": "Refined Slate",
+      "colors": {
+        "background": "#708090",
+        "color": "#FFFFFF",
+        "theme": "#778899",
+        "accent": "#B0C4DE"
+      },
+      "rating": 4,
+      "vibe": "Luxury",
+      "keywords": ["stone", "grey", "clean", "flat", "modern"]
+    },
+    {
+      "id": "lux-gentle-bronze",
+      "name": "Gentle Bronze",
+      "colors": {
+        "background": "#CD7F32",
+        "color": "#FFFFFF",
+        "theme": "#8B4513",
+        "accent": "#D2691E"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["metal", "warm", "statue", "brown", "alloy"]
+    },
+    {
+      "id": "lux-premium-noir",
+      "name": "Premium Noir",
+      "colors": {
+        "background": "#111111",
+        "color": "#D4AF37",
+        "theme": "#333333",
+        "accent": "#C5A028"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["black", "gold", "exclusive", "night", "top"]
+    },
+    {
+      "id": "lux-soft-platinum",
+      "name": "Soft Platinum",
+      "colors": {
+        "background": "#E5E4E2",
+        "color": "#2C3E50",
+        "theme": "#C0C0C0",
+        "accent": "#B0C4DE"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["metal", "white", "rare", "value", "shiny"]
+    },
+    {
+      "id": "lux-luxury-matte",
+      "name": "Luxury Matte",
+      "colors": {
+        "background": "#28282B",
+        "color": "#C0C0C0",
+        "theme": "#414141",
+        "accent": "#757575"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["flat", "no-shine", "modern", "black", "smooth"]
+    },
+    {
+      "id": "lux-high-society",
+      "name": "High Society",
+      "colors": {
+        "background": "#800020",
+        "color": "#FFD700",
+        "theme": "#A52A2A",
+        "accent": "#B8860B"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["club", "elite", "burgundy", "tradition", "rich"]
+    },
+    {
+      "id": "lux-calm-wealth",
+      "name": "Calm Wealth",
+      "colors": {
+        "background": "#004225",
+        "color": "#F5F5DC",
+        "theme": "#006400",
+        "accent": "#2E8B57"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["money", "green", "secure", "quiet", "old"]
+    },
+    {
+      "id": "lux-rich-neutral",
+      "name": "Rich Neutral",
+      "colors": {
+        "background": "#C19A6B",
+        "color": "#3E2723",
+        "theme": "#D2B48C",
+        "accent": "#8B4513"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["camel", "beige", "layer", "warm", "classic"]
+    },
+    {
+      "id": "lux-elite-black",
+      "name": "Elite Black",
+      "colors": {
+        "background": "#0A0A0A",
+        "color": "#FFFFFF",
+        "theme": "#1F1F1F",
+        "accent": "#333333"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["dark", "member", "card", "access", "vip"]
+    },
+    {
+      "id": "lux-smooth-cashmere",
+      "name": "Smooth Cashmere",
+      "colors": {
+        "background": "#F5F5DC",
+        "color": "#696969",
+        "theme": "#E6E6FA",
+        "accent": "#D3D3D3"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["wool", "soft", "warm", "fabric", "expensive"]
+    },
+    {
+      "id": "lux-fine-detail",
+      "name": "Fine Detail",
+      "colors": {
+        "background": "#FFFACD",
+        "color": "#000000",
+        "theme": "#FFD700",
+        "accent": "#F0E68C"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["small", "focus", "craft", "perfect", "art"]
+    },
+    {
+      "id": "lux-silent-gold",
+      "name": "Silent Gold",
+      "colors": {
+        "background": "#B8860B",
+        "color": "#FFFFFF",
+        "theme": "#DAA520",
+        "accent": "#FFD700"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["hushed", "metal", "value", "glow", "pure"]
+    },
+    {
+      "id": "lux-tailored-dark",
+      "name": "Tailored Dark",
+      "colors": {
+        "background": "#2C3E50",
+        "color": "#ECF0F1",
+        "theme": "#34495E",
+        "accent": "#95A5A6"
+      },
+      "rating": 5,
+      "vibe": "Luxury",
+      "keywords": ["suit", "fit", "navy", "custom", "style"]
+    },
+    {
+      "id": "pas-soft-bloom",
+      "name": "Soft Bloom",
+      "colors": {
+        "background": "#FFF0F5",
+        "color": "#555555",
+        "theme": "#FFB7C5",
+        "accent": "#FF69B4"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["flower", "spring", "pink", "gentle", "open"]
+    },
+    {
+      "id": "pas-cloud-candy",
+      "name": "Cloud Candy",
+      "colors": {
+        "background": "#E0FFFF",
+        "color": "#4A4A4A",
+        "theme": "#87CEFA",
+        "accent": "#B0E0E6"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["sweet", "sky", "blue", "fluffy", "sugar"]
+    },
+    {
+      "id": "pas-milk-tea",
+      "name": "Milk Tea",
+      "colors": {
+        "background": "#FDF5E6",
+        "color": "#8B4513",
+        "theme": "#D2B48C",
+        "accent": "#DEB887"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["drink", "warm", "beige", "comfort", "creamy"]
+    },
+    {
+      "id": "pas-powder-sky",
+      "name": "Powder Sky",
+      "colors": {
+        "background": "#F0F8FF",
+        "color": "#2F4F4F",
+        "theme": "#ADD8E6",
+        "accent": "#87CEEB"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["blue", "dust", "light", "air", "high"]
+    },
+    {
+      "id": "pas-lavender-haze",
+      "name": "Lavender Haze",
+      "colors": {
+        "background": "#E6E6FA",
+        "color": "#4B0082",
+        "theme": "#9370DB",
+        "accent": "#D8BFD8"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["purple", "flower", "scent", "fog", "dream"]
+    },
+    {
+      "id": "pas-peach-whisper",
+      "name": "Peach Whisper",
+      "colors": {
+        "background": "#FFDAB9",
+        "color": "#800000",
+        "theme": "#FFA07A",
+        "accent": "#FF7F50"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["fruit", "soft", "orange", "quiet", "fuzz"]
+    },
+    {
+      "id": "pas-mint-cream",
+      "name": "Mint Cream",
+      "colors": {
+        "background": "#F5FFFA",
+        "color": "#006400",
+        "theme": "#98FB98",
+        "accent": "#00FF7F"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["fresh", "green", "cool", "sweet", "leaf"]
+    },
+    {
+      "id": "pas-baby-blue-calm",
+      "name": "Baby Blue Calm",
+      "colors": {
+        "background": "#F0FFFF",
+        "color": "#0000CD",
+        "theme": "#87CEFA",
+        "accent": "#B0C4DE"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["infant", "soft", "sky", "peace", "boy"]
+    },
+    {
+      "id": "pas-sugar-dust",
+      "name": "Sugar Dust",
+      "colors": {
+        "background": "#FFFACD",
+        "color": "#808000",
+        "theme": "#FAFAD2",
+        "accent": "#F0E68C"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["sweet", "white", "sparkle", "grain", "treat"]
+    },
+    {
+      "id": "pas-petal-pink",
+      "name": "Petal Pink",
+      "colors": {
+        "background": "#FFF0F5",
+        "color": "#C71585",
+        "theme": "#FF69B4",
+        "accent": "#FFB6C1"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["flower", "soft", "rose", "fragile", "love"]
+    },
+    {
+      "id": "pas-soft-daylight",
+      "name": "Soft Daylight",
+      "colors": {
+        "background": "#FFFFF0",
+        "color": "#333333",
+        "theme": "#FFFFE0",
+        "accent": "#EEE8AA"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["morning", "sun", "pale", "awake", "gentle"]
+    },
+    {
+      "id": "pas-calm-sorbet",
+      "name": "Calm Sorbet",
+      "colors": {
+        "background": "#FFE4E1",
+        "color": "#FF4500",
+        "theme": "#FF7F50",
+        "accent": "#FA8072"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["ice", "fruit", "cool", "summer", "treat"]
+    },
+    {
+      "id": "pas-muted-candy",
+      "name": "Muted Candy",
+      "colors": {
+        "background": "#E6E6FA",
+        "color": "#8A2BE2",
+        "theme": "#DA70D6",
+        "accent": "#DDA0DD"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["sweet", "dull", "color", "fun", "kid"]
+    },
+    {
+      "id": "pas-pastel-fog",
+      "name": "Pastel Fog",
+      "colors": {
+        "background": "#F0F8FF",
+        "color": "#708090",
+        "theme": "#B0C4DE",
+        "accent": "#D3D3D3"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["mist", "grey", "color", "soft", "hide"]
+    },
+    {
+      "id": "pas-gentle-rainbow",
+      "name": "Gentle Rainbow",
+      "colors": {
+        "background": "#FFFFE0",
+        "color": "#FF0000",
+        "theme": "#87CEEB",
+        "accent": "#98FB98"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["color", "arc", "sky", "rain", "light"]
+    },
+    {
+      "id": "pas-blush-air",
+      "name": "Blush Air",
+      "colors": {
+        "background": "#FFE4E1",
+        "color": "#A52A2A",
+        "theme": "#FFC0CB",
+        "accent": "#FFB6C1"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["cheek", "red", "soft", "shy", "atmosphere"]
+    },
+    {
+      "id": "pas-cotton-sky",
+      "name": "Cotton Sky",
+      "colors": {
+        "background": "#F0FFFF",
+        "color": "#000080",
+        "theme": "#E0FFFF",
+        "accent": "#AFEEEE"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["cloud", "white", "soft", "fabric", "high"]
+    },
+    {
+      "id": "pas-quiet-play",
+      "name": "Quiet Play",
+      "colors": {
+        "background": "#F5F5DC",
+        "color": "#FF69B4",
+        "theme": "#98FB98",
+        "accent": "#87CEFA"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["fun", "soft", "toy", "child", "game"]
+    },
+    {
+      "id": "pas-light-gelato",
+      "name": "Light Gelato",
+      "colors": {
+        "background": "#FFFACD",
+        "color": "#8B4513",
+        "theme": "#F0E68C",
+        "accent": "#BDB76B"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["ice-cream", "italy", "soft", "cold", "dairy"]
+    },
+    {
+      "id": "pas-soft-smile",
+      "name": "Soft Smile",
+      "colors": {
+        "background": "#FFF5EE",
+        "color": "#FF6347",
+        "theme": "#FFA07A",
+        "accent": "#FF7F50"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["happy", "face", "warm", "gentle", "lips"]
+    },
+    {
+      "id": "pas-dream-wash",
+      "name": "Dream Wash",
+      "colors": {
+        "background": "#E0FFFF",
+        "color": "#4682B4",
+        "theme": "#ADD8E6",
+        "accent": "#87CEEB"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["sleep", "clean", "water", "soft", "night"]
+    },
+    {
+      "id": "pas-calm-petals",
+      "name": "Calm Petals",
+      "colors": {
+        "background": "#E6E6FA",
+        "color": "#800080",
+        "theme": "#D8BFD8",
+        "accent": "#DDA0DD"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["flower", "fall", "soft", "purple", "garden"]
+    },
+    {
+      "id": "pas-powdered-mint",
+      "name": "Powdered Mint",
+      "colors": {
+        "background": "#F5FFFA",
+        "color": "#2E8B57",
+        "theme": "#CBF3D2",
+        "accent": "#98FB98"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["green", "dust", "fresh", "cool", "herb"]
+    },
+    {
+      "id": "pas-sweet-balance",
+      "name": "Sweet Balance",
+      "colors": {
+        "background": "#FFF0F5",
+        "color": "#00CED1",
+        "theme": "#FFB6C1",
+        "accent": "#AFEEEE"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["equal", "candy", "mix", "soft", "yum"]
+    },
+    {
+      "id": "pas-airy-tone",
+      "name": "Airy Tone",
+      "colors": {
+        "background": "#F0FFFF",
+        "color": "#708090",
+        "theme": "#E0FFFF",
+        "accent": "#B0E0E6"
+      },
+      "rating": 5,
+      "vibe": "Pastel",
+      "keywords": ["light", "music", "soft", "breeze", "high"]
+    },
+    {
+      "id": "neo-electric-lime",
+      "name": "Electric Lime",
+      "colors": {
+        "background": "#000000",
+        "color": "#39FF14",
+        "theme": "#32CD32",
+        "accent": "#7FFF00"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["bright", "green", "citrus", "shock", "sour"]
+    },
+    {
+      "id": "neo-hot-magenta",
+      "name": "Hot Magenta",
+      "colors": {
+        "background": "#1A1A1A",
+        "color": "#FF00FF",
+        "theme": "#8B008B",
+        "accent": "#C71585"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["pink", "purple", "burn", "bright", "ink"]
+    },
+    {
+      "id": "neo-laser-cyan",
+      "name": "Laser Cyan",
+      "colors": {
+        "background": "#000033",
+        "color": "#00FFFF",
+        "theme": "#00CED1",
+        "accent": "#40E0D0"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["blue", "beam", "future", "light", "cool"]
+    },
+    {
+      "id": "neo-night-glow",
+      "name": "Night Glow",
+      "colors": {
+        "background": "#000000",
+        "color": "#FFFF00",
+        "theme": "#111111",
+        "accent": "#FFFFE0"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["dark", "shine", "star", "bright", "guide"]
+    },
+    {
+      "id": "neo-neon-punch",
+      "name": "Neon Punch",
+      "colors": {
+        "background": "#222222",
+        "color": "#FF4500",
+        "theme": "#FF6347",
+        "accent": "#FF7F50"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["hit", "fruit", "bright", "orange", "party"]
+    },
+    {
+      "id": "neo-acid-flash",
+      "name": "Acid Flash",
+      "colors": {
+        "background": "#000000",
+        "color": "#BFFF00",
+        "theme": "#808000",
+        "accent": "#ADFF2F"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["burn", "bright", "trip", "green", "quick"]
+    },
+    {
+      "id": "neo-bright-voltage",
+      "name": "Bright Voltage",
+      "colors": {
+        "background": "#121212",
+        "color": "#00BFFF",
+        "theme": "#1E90FF",
+        "accent": "#87CEEB"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["power", "electric", "blue", "spark", "energy"]
+    },
+    {
+      "id": "neo-glow-stick",
+      "name": "Glow Stick",
+      "colors": {
+        "background": "#111111",
+        "color": "#00FF00",
+        "theme": "#222222",
+        "accent": "#32CD32"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["party", "snap", "light", "hand", "rave"]
+    },
+    {
+      "id": "neo-digital-highlighter",
+      "name": "Digital Highlighter",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#FFFF00",
+        "theme": "#F0E68C",
+        "accent": "#EEE8AA"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["mark", "yellow", "ink", "bright", "school"]
+    },
+    {
+      "id": "neo-ultra-pink",
+      "name": "Ultra Pink",
+      "colors": {
+        "background": "#2F002F",
+        "color": "#FF69B4",
+        "theme": "#C71585",
+        "accent": "#FF1493"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["bright", "extreme", "femme", "color", "hot"]
+    },
+    {
+      "id": "neo-flash-signal",
+      "name": "Flash Signal",
+      "colors": {
+        "background": "#000000",
+        "color": "#FF0000",
+        "theme": "#8B0000",
+        "accent": "#FF4500"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["warn", "red", "light", "blink", "stop"]
+    },
+    {
+      "id": "neo-neon-pop",
+      "name": "Neon Pop",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#00CED1",
+        "theme": "#20B2AA",
+        "accent": "#48D1CC"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["music", "bubble", "bright", "blue", "culture"]
+    },
+    {
+      "id": "neo-hyper-green",
+      "name": "Hyper Green",
+      "colors": {
+        "background": "#002200",
+        "color": "#00FF7F",
+        "theme": "#32CD32",
+        "accent": "#90EE90"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["fast", "nature", "bright", "energy", "life"]
+    },
+    {
+      "id": "neo-radioactive-blue",
+      "name": "Radioactive Blue",
+      "colors": {
+        "background": "#000011",
+        "color": "#1E90FF",
+        "theme": "#0000FF",
+        "accent": "#4169E1"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["danger", "glow", "science", "isotope", "bright"]
+    },
+    {
+      "id": "neo-night-marker",
+      "name": "Night Marker",
+      "colors": {
+        "background": "#1A1A1A",
+        "color": "#FFA500",
+        "theme": "#FF8C00",
+        "accent": "#FFD700"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["draw", "dark", "orange", "pen", "line"]
+    },
+    {
+      "id": "neo-uv-pulse",
+      "name": "UV Pulse",
+      "colors": {
+        "background": "#110011",
+        "color": "#9400D3",
+        "theme": "#8A2BE2",
+        "accent": "#9932CC"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["purple", "invisible", "light", "beat", "glow"]
+    },
+    {
+      "id": "neo-electric-yellow",
+      "name": "Electric Yellow",
+      "colors": {
+        "background": "#333300",
+        "color": "#FFFF00",
+        "theme": "#FFD700",
+        "accent": "#FFFFE0"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["bright", "shock", "lemon", "sun", "power"]
+    },
+    {
+      "id": "neo-glow-grid",
+      "name": "Glow Grid",
+      "colors": {
+        "background": "#001133",
+        "color": "#00FFFF",
+        "theme": "#008B8B",
+        "accent": "#20B2AA"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["matrix", "line", "structure", "light", "map"]
+    },
+    {
+      "id": "neo-high-energy",
+      "name": "High Energy",
+      "colors": {
+        "background": "#FF4500",
+        "color": "#FFFFFF",
+        "theme": "#FF6347",
+        "accent": "#FF8C00"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["fast", "power", "red", "move", "active"]
+    },
+    {
+      "id": "neo-neon-edge",
+      "name": "Neon Edge",
+      "colors": {
+        "background": "#000000",
+        "color": "#FF1493",
+        "theme": "#C71585",
+        "accent": "#FF69B4"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["sharp", "border", "bright", "pink", "limit"]
+    },
+    {
+      "id": "neo-loud-spectrum",
+      "name": "Loud Spectrum",
+      "colors": {
+        "background": "#FFFFFF",
+        "color": "#00FF00",
+        "theme": "#FF0000",
+        "accent": "#0000FF"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["noise", "color", "all", "bright", "mix"]
+    },
+    {
+      "id": "neo-bright-noise",
+      "name": "Bright Noise",
+      "colors": {
+        "background": "#222222",
+        "color": "#00FFFF",
+        "theme": "#FF00FF",
+        "accent": "#FFFF00"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["static", "color", "screen", "loud", "glitch"]
+    },
+    {
+      "id": "neo-power-color",
+      "name": "Power Color",
+      "colors": {
+        "background": "#00008B",
+        "color": "#FFD700",
+        "theme": "#4169E1",
+        "accent": "#FFFF00"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["strong", "bold", "blue", "yellow", "impact"]
+    },
+    {
+      "id": "neo-shockwave",
+      "name": "Shockwave",
+      "colors": {
+        "background": "#000000",
+        "color": "#FFFFFF",
+        "theme": "#FF4500",
+        "accent": "#FFFF00"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["blast", "impact", "wave", "bright", "force"]
+    },
+    {
+      "id": "neo-after-dark-glow",
+      "name": "After Dark Glow",
+      "colors": {
+        "background": "#111111",
+        "color": "#ADFF2F",
+        "theme": "#2F4F4F",
+        "accent": "#7FFF00"
+      },
+      "rating": 5,
+      "vibe": "Neon",
+      "keywords": ["late", "night", "green", "shine", "club"]
+    }
+  ]
 }
