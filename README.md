@@ -1,4 +1,4 @@
-# 🎨 ToneTrove V3
+# 🎨 ToneTrove V3.2
 
 **ToneTrove** is a premium, minimal web application that provides designers and developers with curated, mathematically-balanced color palettes. 
 
