@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - ToneTrove</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-wrapper">
+
+        <div class="preview-controls">
+            <a href="../index.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Gallery</a>
+            <div class="palette-meta">
+                <h2 id="p-name">Loading...</h2>
+                <div class="swatches" id="swatches"></div>
+            </div>
+            <button class="action-btn" id="copyBtn"><i class="fa-solid fa-code"></i> Copy CSS</button>
+        </div>
+
+        <div class="mock-app-container">
+            <div class="mock-window">
+                <header class="mock-header">
+                    <div class="mock-brand"><i class="fa-solid fa-layer-group"></i> Nexus</div>
+                    <nav class="mock-nav">
+                        <span>Products</span>
+                        <span>Solutions</span>
+                        <span>Pricing</span>
+                    </nav>
+                    <a href="#" class="mock-btn">Dashboard</a>
+                </header>
+
+                <main>
+                    <section class="mock-hero">
+                        <div class="mock-badge">New v2.0 Released</div>
+                        <h1>Design systems built for scale.</h1>
+                        <p>Experience how your selected color palette creates visual hierarchy, drives attention, and
+                            establishes brand identity in a realistic web environment.</p>
+                        <div class="mock-cta-group">
+                            <a href="#" class="mock-btn mock-btn-large">Start Building</a>
+                            <a href="#" class="mock-btn-outline">Read Docs</a>
+                        </div>
+                    </section>
+
+                    <section class="mock-grid">
+                        <div class="mock-card">
+                            <div class="mock-icon"><i class="fa-solid fa-bolt"></i></div>
+                            <h3>Instant Contrast</h3>
+                            <p>Notice how the accent color creates subtle borders and backgrounds while the theme color
+                                drives primary actions.</p>
+                        </div>
+                        <div class="mock-card">
+                            <div class="mock-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <h3>Accessible Reading</h3>
+                            <p>Text elements dynamically adjust to ensure readability against the primary background
+                                color.
+                            </p>
+                        </div>
+                        <div class="mock-card">
+                            <div class="mock-icon"><i class="fa-solid fa-code-merge"></i></div>
+                            <h3>Seamless UI</h3>
+                            <p>Components utilize the 4-color structure to create depth and focus without overwhelming
+                                the
+                                user.</p>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
