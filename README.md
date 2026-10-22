@@ -62,7 +62,8 @@ Palettes are loaded dynamically from `assets/data.json`. To add a new palette, s
 }
 ```
 
-### Color Roles Definition:
+### Color Roles Definition
+
 - **`background`**: The primary background color of the webpage.
 - **`color`**: The primary text color (used for paragraphs and headings).
 - **`theme`**: The primary brand color (used for main buttons, active states, and dominant icons).
@@ -70,4 +71,4 @@ Palettes are loaded dynamically from `assets/data.json`. To add a new palette, s
 
 ## 👨‍💻 Author
 
-Designed and Developed by **Lovansh Gaur**.
+Designed and Developed by **Lovansh Gaur**
